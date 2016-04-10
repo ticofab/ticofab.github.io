@@ -10,22 +10,26 @@ image:
 
 ---
 
-* **[Android GPX Parser](https://github.com/ticofab/android-gpx-parser)**
+[Android GPX Parser](https://github.com/ticofab/android-gpx-parser)
+===================================================================
 
 This library is there to help developers parse GPX files coming out of a GPS recorder.
 
-* **[AWS Request Signer](https://github.com/ticofab/aws-request-signer)**
+[AWS Request Signer](https://github.com/ticofab/aws-request-signer)
+===================================================================
 
 Requests to AWS need to be signed through a complex, easy-to-get-wrong process. This library takes that pain away.
 
-* **[GestureMatch](https://github.com/ticofab/gesturematch)**
-* **[CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)**
+[GestureMatch](https://github.com/ticofab/gesturematch)
+[CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)
+===========================================================================
 
 [CloudMatch](http://cloudmatch.io) is my own startup, and GestureMatch is the open source engine that powers it. The idea is to enable device-to-device communication using hand gestures like Pinch and Swipe.
 
 ![Swipe example]({{site.url}}/assets/swipe.png)
 
-* **[The Things Network Android SDK](https://github.com/TheThingsNetwork/android-sdk)**
+[The Things Network Android SDK](https://github.com/TheThingsNetwork/android-sdk)
+===================================================================
 
 The Things Newtork is a crowd-sourced IoT project. We're building a free LoraWan network and I am in charge of the Android SDK to retrieve data about nodes, gateways and packets.
 

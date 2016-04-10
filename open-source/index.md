@@ -21,7 +21,7 @@ Requests to AWS need to be signed through a complex, easy-to-get-wrong process. 
 * **[GestureMatch](https://github.com/ticofab/gesturematch)**
 * **[CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)**
 
-CloudMatch is my own startup. It enables device-to-device communication using hand gestures like Pinch and Swipe.
+[CloudMatch](http://cloudmatch.io) is my own startup, and GestureMatch is the open source engine that powers it. The idea is to enable device-to-device communication using hand gestures like Pinch and Swipe.
 
 ![Swipe example]({{site.url}}/assets/swipe.png)
 

@@ -21,12 +21,12 @@ Let's move on to my Sodaq ONE package.
 
 Following the handy [getting started guide](http://support.sodaq.com/sodaq-one/sodaq-one/), I installed the Arduino IDE and the additional Board Manager for the Sodaq ONE. 
 
-![The unpacked LoPy](/images/2015-07-29-sodaq)
+![The unpacked LoPy](/images/2015-07-29-sodaq.jpg)
 
 Unfortunately the guide stops at the end of the IDE installation, and in order to go further I had to follow the official SODAQ instructional video to be found [here](https://www.youtube.com/watch?v=G3OovUzntz0).
 At the end, a [simple 'blink' example](https://github.com/GabrielNotman/AutonomoTesting/blob/master/Pin%20IO/blink/blink.ino) is suggested. Copy/pasting the code won't be enough tho, as the IDE will complain that
 
-{% highlight c %}
+{% highlight html %}
 {% raw %}
 'LED_BUILTIN' was not declared in this scope
 {% endraw %}

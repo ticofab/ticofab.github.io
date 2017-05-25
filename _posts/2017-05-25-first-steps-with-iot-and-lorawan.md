@@ -26,18 +26,22 @@ Following the handy [getting started guide](http://support.sodaq.com/sodaq-one/s
 Unfortunately the guide stops at the end of the IDE installation, and in order to go further I had to follow the official SODAQ instructional video to be found [here](https://www.youtube.com/watch?v=G3OovUzntz0).
 At the end, a [simple 'blink' example](https://github.com/GabrielNotman/AutonomoTesting/blob/master/Pin%20IO/blink/blink.ino) is suggested. Copy/pasting the code won't be enough tho, as the IDE will complain that
 
+{% highlight c %}
 {% raw %}
 'LED_BUILTIN' was not declared in this scope
 {% endraw %}
+{% endhighlight %}
 
 This happens as the Sodaq ONE board has different defines for its leds. We can use LED_RED, LED_GREEN or LED_BLUE alternatively.
 
 This is all cool, but towards the end the next problem came up: the board disappears shortly after connecting it with the following goodbye message:
 
+{% highlight c %}
 {% raw %}
 ** Boot-up completed successfully!
 The USB is going to be disabled now.
 {% endraw %}
+{% endhighlight %}
 
 It seems that this is quite normal (?), and if you upload your sketch before this message appears then it won't disconnect again. I fiddled around a bit with the blink example - mostly to get my fingers to type C-style code again - and this is the results. Everything works as expected.
 
@@ -71,7 +75,7 @@ This sketch (and others to follow) is available on a [github repo](https://githu
 The next step I wanted to achieve was to connect my device to [The Things Network](https://www.thethingsnetwork.org). I live in Amsterdam, which is where the network was born, so that should be a well-covered area. I even contributed back then with the [TTN Android SDK](https://github.com/ticofab/The-Things-Network-Android-SDK), now deprecated. I followed the instructions as per the [IoT days 2017 workshop](https://github.com/TheThingsNetwork/workshops/blob/master/IoT-Tech-Day.md), and grabbed the Sodaq ONE [Universal Tracker](https://github.com/SodaqMoja/SodaqOne-UniversalTracker) to get things going, but with little success. Even with all settings correct, the device disconnects and I can't see any incoming data in the TTN console.
 
 {% highlight html %}
-{% raw }
+{% raw %}
 Settings:
   GPS (OFF=0 / ON=1)         (gps=): 1
   Fix Interval (min)         (fi=): 1

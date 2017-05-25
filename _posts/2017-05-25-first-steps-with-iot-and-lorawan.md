@@ -9,9 +9,9 @@ comments: true
 
 **The First False Step**
 
-Some time ago I had purchased a [LoPy]() module and a [SodaqONE]() module. The LoPy seemed somewhat simpler to get started with, so I unpacked it first and started reading the online documentation.
+Some time ago I had purchased a [LoPy](https://www.pycom.io/product/lopy/) module and a [SodaqONE](http://sodaq.com) module. The LoPy seemed somewhat simpler to get started with, so I unpacked it first and started reading the online documentation.
 
-![The unpacked LoPy](/images/2015-07-29-last-button-clicked.png)
+![The unpacked LoPy](/images/2015-07-29-lopy.jpg)
 
 It didn't take me long to realise that the LoPy module is only the gateway to the LoRa netowrk, and that I would need the expansion board to connect it to my computer and update its firware. Doh.
 
@@ -19,7 +19,11 @@ Let's move on to my Sodaq ONE package.
 
 **The Sodaq ONE trials**
 
-Following the handy [getting started guide](http://support.sodaq.com/sodaq-one/sodaq-one/), I installed the Arduino IDE and the additional Board Manager for the Sodaq ONE. Unfortunately the guide stops at the end of the IDE installation, and in order to go further I had to follow the official SODAQ instructional video to be found [here](https://www.youtube.com/watch?v=G3OovUzntz0).
+Following the handy [getting started guide](http://support.sodaq.com/sodaq-one/sodaq-one/), I installed the Arduino IDE and the additional Board Manager for the Sodaq ONE. 
+
+![The unpacked LoPy](/images/2015-07-29-sodaq)
+
+Unfortunately the guide stops at the end of the IDE installation, and in order to go further I had to follow the official SODAQ instructional video to be found [here](https://www.youtube.com/watch?v=G3OovUzntz0).
 At the end, a [simple 'blink' example](https://github.com/GabrielNotman/AutonomoTesting/blob/master/Pin%20IO/blink/blink.ino) is suggested. Copy/pasting the code won't be enough tho, as the IDE will complain that
 
 {% raw %}
@@ -66,6 +70,7 @@ This sketch (and others to follow) is available on a [github repo](https://githu
 
 The next step I wanted to achieve was to connect my device to [The Things Network](https://www.thethingsnetwork.org). I live in Amsterdam, which is where the network was born, so that should be a well-covered area. I even contributed back then with the [TTN Android SDK](https://github.com/ticofab/The-Things-Network-Android-SDK), now deprecated. I followed the instructions as per the [IoT days 2017 workshop](https://github.com/TheThingsNetwork/workshops/blob/master/IoT-Tech-Day.md), and grabbed the Sodaq ONE [Universal Tracker](https://github.com/SodaqMoja/SodaqOne-UniversalTracker) to get things going, but with little success. Even with all settings correct, the device disconnects and I can't see any incoming data in the TTN console.
 
+{% highlight html %}
 {% raw }
 Settings:
   GPS (OFF=0 / ON=1)         (gps=): 1
@@ -94,6 +99,7 @@ Initializing LoRa...
 ** Boot-up completed successfully!
 The USB is going to be disabled now.
 {% endraw %}
+{% endhighlight %}
 
 As a first day into IoT experiments, I had fun. I am curious about the recent Android Things initiative. But first let's get this connection to work! 
 

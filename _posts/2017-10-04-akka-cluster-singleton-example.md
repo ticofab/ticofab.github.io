@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Akka Cluster Singleton Example
-excerpt: "An example app using Akka ClusterSingleton"
+excerpt: "An example app using Akka ClusterSingleton and ClusterRouterPool."
 modified: 2017-10-04
 tags: [scala, akka, akka-cluster]
 comments: true

@@ -5,8 +5,8 @@ tags: [talks, ticofab, Fabio Tiriticco, speaker]
 modified: 2018-16-07T12:53:07.573882-04:00
 image:
   feature: reactive-meetup-wework.jpg
-  credit: ticofab
-  creditlink: http://ticofab.io
+  credit:
+  creditlink:
 
 ---
 

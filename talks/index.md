@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks
+title:
 tags: [talks, ticofab, Fabio Tiriticco, speaker]
 modified: 2018-16-07T12:53:07.573882-04:00
 image:
@@ -10,13 +10,17 @@ image:
 
 ---
 
+#### UPCOMING 
+
+* London (UK), O'Reilly Software Architecture Conference, 29th October
+* Amsterdam (NL), ITNEXT, 14th November
+
 #### 2018
 
-* London (UK), O'Reilly Software Architecture Conference, 29th October (UPCOMING)
 * Malaga (ES), J On The Beach, 25th May 
 * Amsterdam (NL), Codemotion, 8th May, Panel session
 * Krakow (PL), React Sphere, 17th April
-* Amsterdam (NL), Reactive Amsterdam meetup @ Xebia, 9th April
+* Amsterdam (NL), Reactive Amsterdam meetup, 9th April
 
 #### 2017
 
@@ -25,6 +29,7 @@ image:
 * Utrecht (NL), DomCode meetup, 26th September
 * Amsterdam (NL), Codemotion, 16th May
 * Amsterdam (NL), Reactive Amsterdam meetup, 11th April
+* Webinar, Codemotion, 7th February
 
 #### 2016
 

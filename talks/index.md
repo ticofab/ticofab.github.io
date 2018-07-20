@@ -10,7 +10,7 @@ image:
 
 ---
 
-#### UPCOMING 
+#### UPCOMING 2018
 
 * Florence (IT), Scala Italy, 14th and 15th September
 * London (UK), O'Reilly Software Architecture Conference, 29th October

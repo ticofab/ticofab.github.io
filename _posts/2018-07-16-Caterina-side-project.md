@@ -15,5 +15,6 @@ These posts are published on Medium.
 * [A Crypto Data Project](https://medium.com/@ticofab/a-crypto-data-project-cf6884c60649)
 * [An Eventful Crypto Storm](https://medium.com/@ticofab/an-eventful-crypto-storm-2a5ed95e5eaf)
 * [From Event Storming to Architecture](https://medium.com/@ticofab/from-event-storming-to-architecture-c2dc49e9c2d0)
+* [Monitor Crypto Events with Akka Streams](https://medium.com/@ticofab/monitor-crypto-events-with-akka-stream-b2d5d6687804)
 
 Happy reading & watching!

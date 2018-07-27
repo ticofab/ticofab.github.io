@@ -12,9 +12,10 @@ image:
 
 #### UPCOMING 2018
 
-* Florence (IT), Scala Italy, 14th and 15th September
-* London (UK), O'Reilly Software Architecture Conference, 29th October
-* Amsterdam (NL), ITNEXT, 14th November
+* Florence (IT), **Scala Italy**, 14th and 15th September
+* Montreal (CA), **Reactive Summit**, 22nd October 
+* London (UK), **O'Reilly Software Architecture Conference**, 29th October
+* Amsterdam (NL), **ITNEXT**, 14th November
 
 #### 2018
 

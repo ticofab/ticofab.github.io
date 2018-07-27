@@ -19,31 +19,31 @@ image:
 
 #### 2018
 
-* Malaga (ES), J On The Beach, 25th May 
-* Amsterdam (NL), Codemotion, 8th May, Panel session
-* Krakow (PL), React Sphere, 17th April
-* Amsterdam (NL), Reactive Amsterdam meetup, 9th April
+* Malaga (ES), **J On The Beach**, 25th May 
+* Amsterdam (NL), **Codemotion**, 8th May, Panel session
+* Krakow (PL), **React Sphere**, 17th April
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April
 
 #### 2017
 
-* Amsterdam (NL), Reactive Amsterdam meetup, 26th October
-* The Hague (NL), Dev/070 meetup, 25th October
-* Utrecht (NL), DomCode meetup, 26th September
-* Amsterdam (NL), Codemotion, 16th May
-* Amsterdam (NL), Reactive Amsterdam meetup, 11th April
-* Webinar, Codemotion, 7th February
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 26th October
+* The Hague (NL), **Dev/070 meetup**, 25th October
+* Utrecht (NL), **DomCode meetup**, 26th September
+* Amsterdam (NL), **Codemotion**, 16th May
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 11th April
+* Webinar, **Codemotion**, 7th February
 
 #### 2016
 
-* Hilversum (NL), Dutch Android User Group, 23rd August
+* Hilversum (NL), **Dutch Android User Group**, 23rd August
 
 #### 2015
 
-* Amsterdam (NL), Reactive Amsterdam meetup, 13th November
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 13th November
 
 #### 2014
 
-* Amsterdam (NL), Amsterdam Scala meetup, 20th March
+* Amsterdam (NL), **Amsterdam Scala meetup**, 20th March
 
 
 

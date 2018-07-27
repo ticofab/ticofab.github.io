@@ -7,7 +7,7 @@ tags: [scala, akka, akka-streams, akka-stream, event-sourcing]
 comments: false
 ---
 
-Caterina is my side project with big data and Machine Learning. The quest is for predictable patterns between a crypto event (such as a product release, a conference, a fork...) and fluctuation in the price of its related cryptocurrency.
+Caterina is my side project with Big Data and Machine Learning. The quest is for predictable patterns between a crypto event (such as a product release, a conference, a fork...) and fluctuation in the price of its related cryptocurrency.
 
 These posts are published on Medium.
 

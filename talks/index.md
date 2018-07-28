@@ -16,6 +16,7 @@ image:
 * Montreal (CA), **Reactive Summit**, 22nd October 
 * London (UK), **O'Reilly Software Architecture Conference**, 29th October
 * Amsterdam (NL), **ITNEXT**, 14th November
+* Berlin (DE), **Codemotion**, 20th November
 
 #### 2018
 

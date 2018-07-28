@@ -20,24 +20,24 @@ image:
 
 #### 2018
 
-* Malaga (ES), **J On The Beach**, 25th May ([talk recording](https://youtu.be/OOXRgd5yUQo), [interview](https://youtu.be/pZgrAnORNAU))
+* Malaga (ES), **J On The Beach**, 25th May ([📺](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
 * Amsterdam (NL), **Codemotion**, 8th May, Panel session
 * Krakow (PL), **React Sphere**, 17th April
-* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April ([talk recording](https://youtu.be/M8P3MFmMDk4))
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April (📺](https://youtu.be/M8P3MFmMDk4))
 
 #### 2017
 
-* Amsterdam (NL), **Reactive Amsterdam meetup**, 26th October ([talk recording](https://youtu.be/J1mkMYIO9gg))
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 26th October ([📺](https://youtu.be/J1mkMYIO9gg))
 * The Hague (NL), **Dev/070 meetup**, 25th October
 * Utrecht (NL), **DomCode meetup**, 26th September
-* Amsterdam (NL), **Codemotion**, 16th May ([talk recording](https://youtu.be/zgKoAfhCHVE))
-* Amsterdam (NL), **Reactive Amsterdam meetup**, 11th April ([intro](https://youtu.be/eKkeHHTSETw), [talk recording](https://youtu.be/MQGXrrhGUTw))
+* Amsterdam (NL), **Codemotion**, 16th May ([📺](https://youtu.be/zgKoAfhCHVE))
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 11th April ([🎤](https://youtu.be/eKkeHHTSETw), [📺](https://youtu.be/MQGXrrhGUTw))
 * Webinar, **Codemotion**, 7th February
 
 #### 2016
 
 * Hilversum (NL), **Dutch Android User Group**, 23rd August
-* Amsterdam (NL), **Codemotion**, 11th May ([talk recording](https://youtu.be/QGYzrEZEW_k))
+* Amsterdam (NL), **Codemotion**, 11th May ([📺](https://youtu.be/QGYzrEZEW_k))
 
 #### 2015
 

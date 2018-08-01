@@ -23,7 +23,7 @@ image:
 * Malaga (ES), **J On The Beach**, 25th May ([📺](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
 * Amsterdam (NL), **Codemotion**, 8th May, Panel session
 * Krakow (PL), **React Sphere**, 17th April
-* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April (📺](https://youtu.be/M8P3MFmMDk4))
+* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April ([📺](https://youtu.be/M8P3MFmMDk4))
 
 #### 2017
 

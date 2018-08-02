@@ -12,6 +12,7 @@ image:
 
 #### UPCOMING 2018
 
+* Amsterdam (NL), **Software Circus meetup**, 21st August
 * Florence (IT), **Scala Italy**, 14th September
 * Montreal (CA), **Reactive Summit**, 22nd October 
 * London (UK), **O'Reilly Software Architecture Conference**, 29th October

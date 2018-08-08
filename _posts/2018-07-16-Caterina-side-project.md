@@ -16,5 +16,6 @@ These posts are published on Medium.
 * [An Eventful Crypto Storm](https://medium.com/@ticofab/an-eventful-crypto-storm-2a5ed95e5eaf)
 * [From Event Storming to Architecture](https://medium.com/@ticofab/from-event-storming-to-architecture-c2dc49e9c2d0)
 * [Monitor Crypto Events with Akka Streams](https://medium.com/@ticofab/monitor-crypto-events-with-akka-stream-b2d5d6687804)
+* [From Scala App to Kubernetes Pod](https://medium.com/@ticofab/from-scala-app-to-kubernetes-pod-d67e0cd6bfaf)
 
 Happy reading & watching!

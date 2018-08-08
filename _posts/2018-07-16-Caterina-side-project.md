@@ -8,7 +8,6 @@ comments: false
 ---
 
 Caterina is my side project with Big Data and Machine Learning. The quest is for predictable patterns between a crypto event (such as a product release, a conference, a fork...) and fluctuation in the price of its related cryptocurrency.
-
 These posts are published on Medium.
 
 * [Doing Things the Proper Way](https://medium.com/@ticofab/doing-things-the-proper-way-b085068cba71)  

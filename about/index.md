@@ -10,30 +10,27 @@ image:
 
 ---
 
-Human interaction is more imporant than code-style perfection.
+Human interaction is more important than code-style perfection.  
+Full resume is available [here](http://ticofab.io/assets/cv/fabio_tiriticco_cv_2018.pdf).
 
-**Loves:**
+**Tech passions:**
 
-* Android
 * Scala
-* Reactive development in all of its forms
+* Reactive systems design & development
+* Android
 
 **Meetup organizer of:**
 
 * <a href="http://www.meetup.com/Reactive-Amsterdam/">Reactive Amsterdam</a>. Anything Reactive.
 * <a href="http://www.meetup.com/Bicycle-Touring-Amsterdam/">Bicycle Touring Amsterdam</a>. Join us for great rides in the open!
 
-**Keen interests:**
-
-* IoT
-* Web development
-
 **Get in touch for anything related to:**
 
+* Developer Advocacy
 * Android or Scala freelance work
 * Reactive talks and presentation
 * Bicycle touring
-* Fun videomaking (I'm a big GoPro fan)
+* Videomaking (I'm a big GoPro fan)
 
-An [email](mailto:fabio.europe@gmail.com) is the easiest way to start a rich conversation.
+An [email](mailto:fabio@ticofab.io) is the easiest way to start a rich conversation.
 

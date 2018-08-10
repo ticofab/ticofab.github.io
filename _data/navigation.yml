@@ -3,17 +3,20 @@
 - title: About
   url: /about/
 
+- title: Resume
+  url: /assets/cv/fabio_tiriticco_cv_2018.pdf
+
 - title: Talks
   url: /talks/
+
+- title: Posts
+  url: /posts/
 
 - title: Open Source
   url: /open-source/
 
 - title: Reactive Amsterdam
   url: http://www.meetup.com/Reactive-Amsterdam
-
-- title: Resume
-  url: /assets/cv/fabio_tiriticco_cv_2018.pdf
 
 #- title: Famsterdam Life
 #  url: http://famsterdamlife.com

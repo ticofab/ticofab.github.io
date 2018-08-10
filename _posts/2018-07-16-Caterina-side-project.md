@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Caterina, a side project about crypto and big data.
+title: SERIES: Caterina, a side project about crypto and big data.
 excerpt: "The quest for patterns in crypto events and price variation"
 modified: 2018-07-16
 tags: [scala, akka, akka-streams, akka-stream, event-sourcing]

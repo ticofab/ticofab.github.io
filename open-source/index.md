@@ -12,9 +12,7 @@ image:
 
 ### Actively maintained
 
-#### [Android GPX Parser](https://github.com/ticofab/android-gpx-parser)
-
-[This library](https://github.com/ticofab/android-gpx-parser) is there to help developers parse GPX files coming out of a GPS recorder.
+**[Android GPX Parser](https://github.com/ticofab/android-gpx-parser)**: parse GPX files coming out of a GPS recorder, on Android.
 
 ---
 

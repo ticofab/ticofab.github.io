@@ -39,22 +39,19 @@ image:
 
 ### Archives
 
-#### [AWS Request Signer](https://github.com/ticofab/aws-request-signer) [Scala]
-
+**[AWS Request Signer](https://github.com/ticofab/aws-request-signer) [Scala]**  
 Requests to AWS need to be signed through a complex, easy-to-get-wrong process. This library takes that pain away.  
 ***Deprecation***: Another project took this library over and reworked into a [broader library](https://github.com/aws4s/aws4s)
 with more functionalities,   
 
-#### [GestureMatch](https://github.com/ticofab/gesturematch) [Scala] & [CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)
-
+**[GestureMatch](https://github.com/ticofab/gesturematch) [Scala] & [CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)**  
 [CloudMatch](http://cloudmatch.github.com) is my own startup, and [GestureMatch](https://github.com/ticofab/gesturematch) is the
 open source engine that powers it. The idea is to enable device-to-device communication using hand gestures like Pinch and Swipe.  
 ***Deprecation***: The startup is no longer active and this code is old. Interesting to see how much I progressed!
 
 ![Swipe example]({{site.url}}/assets/swipe.png)
 
-#### [The Things Network Android SDK](https://github.com/TheThingsNetwork/android-sdk)
-
+**[The Things Network Android SDK](https://github.com/TheThingsNetwork/android-sdk)**  
 The Things Newtork is a crowd-sourced IoT project. We're building a free LoraWan network and I am in charge of the
 [Android SDK](https://github.com/TheThingsNetwork/android-sdk) to retrieve data about nodes, gateways and packets.  
 ***Deprecation:*** I am not working with these guys any longer and this SDK refers to obsolete APIs. Check out their latest

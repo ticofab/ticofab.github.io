@@ -10,14 +10,15 @@ image:
 
 ---
 
-## Actively maintained
+### Actively maintained
 
 #### [Android GPX Parser](https://github.com/ticofab/android-gpx-parser)
 
 [This library](https://github.com/ticofab/android-gpx-parser) is there to help developers parse GPX files coming out of a GPS recorder.
 
+---
 
-## Examples & fiddling
+### Examples & fiddling
 
 **Scala:**
 
@@ -36,7 +37,9 @@ image:
 * [Dependency injection with Dagger](https://github.com/ticofab/DaggerExperimentAndroid)
 * [WebSockets in Android](https://github.com/ticofab/android-simple-websocket-client)
 
-## Archives
+---
+
+### Archives
 
 #### [AWS Request Signer](https://github.com/ticofab/aws-request-signer) [Scala]
 
@@ -46,7 +49,7 @@ with more functionalities,
 
 #### [GestureMatch](https://github.com/ticofab/gesturematch) [Scala] & [CloudMatch Android SDK](https://github.com/ticofab/cloudmatch_android_sdk)
 
-[CloudMatch](http://cloudmatch.io) is my own startup, and [GestureMatch](https://github.com/ticofab/gesturematch) is the
+[CloudMatch](http://cloudmatch.github.com) is my own startup, and [GestureMatch](https://github.com/ticofab/gesturematch) is the
 open source engine that powers it. The idea is to enable device-to-device communication using hand gestures like Pinch and Swipe.  
 ***Deprecation***: The startup is no longer active and this code is old. Interesting to see how much I progressed!
 

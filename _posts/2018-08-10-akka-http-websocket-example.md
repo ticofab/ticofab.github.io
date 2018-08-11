@@ -3,23 +3,23 @@ layout: post
 title: Akka Http Websocket Example
 excerpt: "An example usage of Websocket in Akka Http"
 modified: 2018-08-10
-tags: [scala, akka, akka-http, websocket]
+tags: [scala, akka, akka-http, Websocket]
 comments: true
 ---
 
 [Akka Http](https://doc.akka.io/docs/akka-http/current/introduction.html#philosophy) is a module of Akka that provides a
-full HTTP and WebSocket server and client implementation, building on the power of [Akka Streams](https://doc.akka.io/docs/akka/2.5.14/stream/stream-introduction.html#motivation).
+full HTTP and Websocket server and client implementation, building on the power of [Akka Streams](https://doc.akka.io/docs/akka/2.5.14/stream/stream-introduction.html#motivation).
 This means backpressure and resilience transparently out of the box. Great! 
 
-I recently needed to implement a bi-directional websocket channel where each connected client is handled by an actor. All
-examples I could find were somewhat more complicated and mostly about the chat use-case., so here is my simpler example.
+I recently needed to implement a bi-directional Websocket channel where each connected client is handled by an actor. The
+examples I could find were mostly about building a chat and therefore with a broader focus. Here is my simpler example.
 
-* Each connection gets assigned to an actor
+* Each Websocket connection gets assigned to an new actor
 * This actor will reply with `"Hallo " + s` when receiving a string message
 * This actor will pipe down to the client any `int` value it receives.
 
-As described in the [Server Side WebSocket Support](https://doc.akka.io/docs/akka-http/current/server-side/websocket-support.html)
-page of Akka Http, a websocket connection is modelled as a `Flow` that ingests messages and returns messages. 
+As described in the [Server Side Websocket Support](https://doc.akka.io/docs/akka-http/current/server-side/Websocket-support.html)
+page of Akka Http, a Websocket connection is modelled as a Flow that ingests messages and returns messages. 
 The key issue to solve was that I needed a reference to independently push messages down to the connected client. The trick
 that helped me came from [this post](https://bartekkalinka.github.io/2017/02/12/Akka-streams-source-run-it-publish-it-then-run-it-again.html)
 by Bartek Kalinka. The idea is to pre-materialize a `Source.actorRef` which jots down messages to a publisher Sink.  
@@ -33,8 +33,8 @@ val (down, publisher) = Source
 {% endraw %}
 {% endhighlight %}
 
-At this point, each message sent to the `down` actorRef will end up in the `publisher` Sink. We can then create a `Source`
-out of this sink, and use that source as the output for the websocket `Flow` required by Akka Http. 
+At this point, each message sent to the `down` actorRef will end up in the `publisher` Sink. We can then create a Source
+out of this sink, and use that source as the output for the Websocket Flow required by Akka Http. 
 
 {% highlight java %}
 {% raw %}
@@ -80,14 +80,14 @@ class ClientHandlerActor extends Actor {
     // replies with "hello XXX"
     case s: String => down ! "Hello " + s + "!"
 
-    // passes any int down the websocket
+    // passes any int down the Websocket
     case n: Int => down ! n.toString
   }
 }
 {% endraw %}
 {% endhighlight %}
 
-As it is born, it materializes the actorRef and the publisher `Sink`. When asked to return the handling flow, it creates
+As it is born, it materializes the actorRef and the publisher Sink. When asked to return the handling flow, it creates
 the flow using the `GraphDSL` syntax and sends it back. In your route, it goes like
 
 {% highlight java %}
@@ -98,7 +98,7 @@ path("connect") {
   val futureFlow = (handler ? GetWebsocketFlow) (3.seconds).mapTo[Flow[Message, Message, _]]
 
   onComplete(futureFlow) {
-    case Success(flow) => handleWebSocketMessages(flow)
+    case Success(flow) => handleWebsocketMessages(flow)
     case Failure(err) => complete(err.toString)
   }
 }
@@ -106,4 +106,6 @@ path("connect") {
 {% endhighlight %}
 
 Now you can build your own custom logic and behaviour around the ClientHandlerActor.
-Full code is available on a [GitHub repository](https://github.com/ticofab/akka-http-websocket-example).
+Full code is available on a [GitHub repository](https://github.com/ticofab/akka-http-Websocket-example).
+Note that this won't work in a distributed setting. For that we'll need a couple adjustments, in a coming post!
+

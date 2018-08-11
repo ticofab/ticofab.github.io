@@ -66,7 +66,10 @@ class ClientHandlerActor extends Actor {
         val textMsgFlow = b.add(Flow[Message]
           .mapAsync(1) {
             case tm: TextMessage => tm.toStrict(3.seconds).map(_.text)
-            case _ => Future.failed(new Exception("yuck"))
+            case _ => 
+            // consume the stream
+            bm.dataStream.runWith(Sink.ignore)
+            Future.failed(new Exception("yuck"))
           })
 
         val pubSrc = b.add(Source.fromPublisher(publisher).map(TextMessage(_)))

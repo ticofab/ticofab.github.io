@@ -15,8 +15,8 @@ I recently needed to implement a bi-directional Websocket channel where each con
 examples I could find were mostly about building a chat and therefore with a broader focus. Here is my simpler example.
 
 * Each Websocket connection gets assigned to an new actor
-* This actor will reply with `"Hallo " + s` when receiving a string message
-* This actor will pipe down to the client any `int` value it receives.
+* This actor will reply with `"Hello " + s + "!"` when receiving a String message
+* This actor will pipe down to the client any Int value it receives.
 
 As described in the [Server Side Websocket Support](https://doc.akka.io/docs/akka-http/current/server-side/Websocket-support.html)
 page of Akka Http, a Websocket connection is modelled as a Flow that ingests messages and returns messages. 
@@ -58,7 +58,7 @@ class ClientHandlerActor extends Actor {
     .run()
 
   override def receive = {
-    case GetFlow =>
+    case GetWebsocketFlow =>
 
       val flow = Flow.fromGraph(GraphDSL.create() { implicit b =>
       
@@ -66,7 +66,7 @@ class ClientHandlerActor extends Actor {
         val textMsgFlow = b.add(Flow[Message]
           .mapAsync(1) {
             case tm: TextMessage => tm.toStrict(3.seconds).map(_.text)
-            case _ => 
+            case bm: BinaryMessage => 
             // consume the stream
             bm.dataStream.runWith(Sink.ignore)
             Future.failed(new Exception("yuck"))
@@ -80,7 +80,7 @@ class ClientHandlerActor extends Actor {
 
       sender ! flow
 
-    // replies with "hello XXX"
+    // sends "Hello XXX!" down the websocket
     case s: String => down ! "Hello " + s + "!"
 
     // passes any int down the Websocket

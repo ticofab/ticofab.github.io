@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Akka Http Websocket Example
+title: Akka Http, handle Websockets with Actors
 excerpt: "An example usage of Websocket in Akka Http"
 modified: 2018-08-10
 tags: [scala, akka, akka-http, Websocket]

@@ -63,8 +63,8 @@ case pch@ProvideConnectionHandler =>
       // forward it to a random node, if any
       val chosenNode = nodes(Random.nextInt(nodes.size))
       (chosenNode ? pch) (3.seconds) .... // more details below
-% endraw %}
-% endhighlight %}
+{% endraw %}
+{% endhighlight %}
       
 The handling actor, running on a remote node does a few things:
 

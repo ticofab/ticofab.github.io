@@ -29,7 +29,9 @@ val (down, publisher) = Source
 At this point, each message sent to the `down` actorRef will end up in the `publisher` Sink. We can then create a Source
 out of this sink, and use that source as the output for the Websocket Flow required by Akka Http. 
 
-So far, same as previous post. The missing step is, how to connect this source originating on a remote node?
+So far, same as previous post. The missing step is, how to connect this source originating on a remote node? This is what we want to achieve:
+
+![HAndling Websocket clients with remote actors](/images/distributed-websocket-with-akka-http-diagram.png)
 
 ### StreamRef to the rescue
 

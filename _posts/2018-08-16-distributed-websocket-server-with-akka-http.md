@@ -37,8 +37,8 @@ So far, same as previous post. The missing step is, how to connect this source o
 
 The glorious [Akka Streams](https://doc.akka.io/docs/akka/2.5.14/stream/stream-introduction.html#motivation) library has
 everything we need. An experimental feature lets us materialize a local Source into a `StreamRef`. You can think of that
-as the equivalent of `ActorRef` for Streams; to name one, they both accomplish location transparency. We can then send
-pass the reference to the server and create there the handling Flow.
+as the equivalent of `ActorRef` for Streams; to name one, they both accomplish location transparency. We can then pass
+the reference to the server and create there the handling Flow.
 
 In this example, as the server receives an incoming Websocket connection, it asks its supervisor to provide a materialized source
 for streaming down messages:

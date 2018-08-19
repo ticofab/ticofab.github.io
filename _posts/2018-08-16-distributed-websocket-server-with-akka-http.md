@@ -55,8 +55,23 @@ val routes = path("connect") {
 {% endraw %}
 {% endhighlight %}
 
-The supervisor forwards the request to one of the registered handling nodes (see [full code](https://github.com/ticofab/akka-http-distributed-websockets) for details)
-and the handling actor looks like this:
+The supervisor forwards the request to one of the registered handling nodes - here chosen randomly:
+
+{% highlight java %}
+{% raw %}
+case pch@ProvideConnectionHandler =>
+      // forward it to a random node, if any
+      val chosenNode = nodes(Random.nextInt(nodes.size))
+      debug(s"sending request for handler to ${chosenNode.path.name}")
+      (chosenNode ? pch) (3.seconds) .... // more details below
+% endraw %}
+% endhighlight %}
+      
+The handling actor, running on a remote node does a few things:
+
+* Upon creation, registers with the listener node.
+* Creates a source of streams and materialises it as a remote source.
+* Pushes a greeting down that source every time it receives a message.
 
 {% highlight java %}
 {% raw %}
@@ -103,48 +118,40 @@ Once the SourceRef has come back, the supervisor can create the needed flow:
 {% highlight java %}
 {% raw %}
 ...
-case ConnectionHandler(handlingActor, sourceRef) =>
+case pch@ProvideConnectionHandler =>
+  // forward it to a random node, if any
+  val chosenNode = nodes(Random.nextInt(nodes.size))
+  debug(s"sending request for handler to ${chosenNode.path.name}")
+  (chosenNode ? pch) (3.seconds)
+    .mapTo[ConnectionHandler]
+    .map { case ConnectionHandler(handlingActor, sourceRef) =>
 
-  Flow.fromGraph(GraphDSL.create() { implicit b =>
+      // create and send flow back
+      Flow.fromGraph(GraphDSL.create() { implicit b =>
 
-    // only work with TextMessage, extract body
-    val textMsgFlow = b.add(Flow[Message]
-      .mapAsync(1) {
-        case tm: TextMessage => tm.toStrict(3.seconds).map(_.text)
-        case bm: BinaryMessage =>
-          bm.dataStream.runWith(Sink.ignore)
-          Future.failed(new Exception("yuck"))
+        val textMsgFlow = b.add(Flow[Message]
+          .mapAsync(1) {
+            case tm: TextMessage => tm.toStrict(3.seconds).map(_.text)
+            case bm: BinaryMessage =>
+              bm.dataStream.runWith(Sink.ignore)
+              Future.failed(new Exception("yuck"))
+          })
+
+        // map strings coming from this source to TextMessage
+        val pubSrc = b.add(sourceRef.map(TextMessage(_)))
+
+        // forward each message to the handling actor
+        textMsgFlow ~> Sink.foreach[String](handlingActor ! _)
+
+        FlowShape(textMsgFlow.in, pubSrc.out)
       })
-
-    // map strings coming from this source to TextMessage ready to be sent down the websocket
-    val pubSrc = b.add(sourceRef.map(TextMessage(_)))
-
-    // forward each message to the handling actor
-    textMsgFlow ~> Sink.foreach[String](handlingActor ! _)
-
-    FlowShape(textMsgFlow.in, pubSrc.out)
-  })
-
+    }
+    .pipeTo(sender)
 {% endraw %}
 {% endhighlight %}
 
-This bears several improvements over the version in the previous post: the nicest one I see is that the handling actor
-is completely unaware that it is handling a Websocket connection - it receives Strings and streams Strings back.
-The route that connects the pieces is quite straightforward: 
-
-{% highlight java %}
-{% raw %}
-val routes = path("connect") {
-  val handlingFlow = (supervisor ? ProvideConnectionHandler) (3.seconds).mapTo[HandlingFlow]
-  onComplete(handlingFlow) {
-    case Success(flow) => handleWebSocketMessages(flow)
-    case Failure(err) => // notify error
-  }
-}
-{% endraw %}
-{% endhighlight %} 
-
 Full code is available on a [GitHub repository](https://github.com/ticofab/akka-http-distributed-websockets). Note that
-this code is not meant for production - the `StreamRef` feature itself is marked as 'may change': thread carefully! (Pun
-intended.)  
-If you have suggestions, corrections or anything else, please don't hesitate to leave a comment!
+this code is not meant for production - the `StreamRef` feature itself is marked as 'may change' at the moment of writing:
+thread carefully! (Pun intended.)  
+
+If you have suggestions, corrections or anything else, please don't hesitate to leave a comment.

@@ -62,7 +62,6 @@ The supervisor forwards the request to one of the registered handling nodes - he
 case pch@ProvideConnectionHandler =>
       // forward it to a random node, if any
       val chosenNode = nodes(Random.nextInt(nodes.size))
-      debug(s"sending request for handler to ${chosenNode.path.name}")
       (chosenNode ? pch) (3.seconds) .... // more details below
 % endraw %}
 % endhighlight %}
@@ -105,7 +104,6 @@ class Handler extends Actor with LogSupport {
 
     case s: String =>
       // in this example, all strings coming in are from the websocket client. Reply with a salute.
-      debug(s"Received message: $s")
       down ! "Hello " + s + "!"
   }
 

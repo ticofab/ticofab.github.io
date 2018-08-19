@@ -46,8 +46,8 @@ for streaming down messages:
 type HandlingFlow = Flow[Message, Message, _]
 val routes = path("connect") {
   info(s"client connected")
-  val handlingFlow = (supervisor ? ProvideConnectionHandler) (3.seconds).mapTo[HandlingFlow]
-  onComplete(handlingFlow) {
+  val futureFlow = (supervisor ? ProvideConnectionHandler) (3.seconds).mapTo[HandlingFlow]
+  onComplete(futureFlow) {
     case Success(flow) => handleWebSocketMessages(flow)
     case Failure(err) => complete(HttpResponse(StatusCodes.InternalServerError, entity = HttpEntity(err.getMessage)))
   }
@@ -79,7 +79,7 @@ class Handler extends Actor with LogSupport {
   implicit val as = context.system
   implicit val am = ActorMaterializer()
 
-  // make sure that we register only we we are effectively up
+  // make sure that we register only once we are effectively up
   val cluster = Cluster(as)
   cluster registerOnMemberUp {
     cluster.state.leader.foreach(leaderAddress =>
@@ -124,7 +124,7 @@ case pch@ProvideConnectionHandler =>
     .mapTo[ConnectionHandler]
     .map { case ConnectionHandler(handlingActor, sourceRef) =>
 
-      // create and send flow back
+      // create a handling flow to send back
       Flow.fromGraph(GraphDSL.create() { implicit b =>
 
         val textMsgFlow = b.add(Flow[Message]
@@ -152,4 +152,4 @@ Full code is available on a [GitHub repository](https://github.com/ticofab/akka-
 this code is not meant for production - the `StreamRef` feature itself is marked as 'may change' at the moment of writing:
 thread carefully! (Pun intended.)  
 
-If you have suggestions, corrections or anything else, please don't hesitate to leave a comment.
+If you have any suggestion, please don't hesitate to leave a comment.

@@ -71,7 +71,7 @@ case pch@ProvideConnectionHandler =>
 The handling actor, running on a remote node does a few things:
 
 * Upon creation, registers with the listener node.
-* Creates a source of streams and materialises it as a remote source.
+* Creates a source of Strings and materialises it as a remote source.
 * Pushes a greeting down that source every time it receives a message.
 
 {% highlight java %}
@@ -121,7 +121,6 @@ Once the SourceRef has come back, the supervisor can create the needed flow:
 case pch@ProvideConnectionHandler =>
   // forward it to a random node, if any
   val chosenNode = nodes(Random.nextInt(nodes.size))
-  debug(s"sending request for handler to ${chosenNode.path.name}")
   (chosenNode ? pch) (3.seconds)
     .mapTo[ConnectionHandler]
     .map { case ConnectionHandler(handlingActor, sourceRef) =>

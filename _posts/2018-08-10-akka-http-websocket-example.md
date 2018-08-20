@@ -110,5 +110,6 @@ path("connect") {
 
 Now you can build your own custom logic and behaviour around the ClientHandlerActor.
 Full code is available on a [GitHub repository](https://github.com/ticofab/akka-http-Websocket-example).
-Note that this won't work in a distributed setting. For that we'll need a couple adjustments, in a coming post!
+Note that this won't work in a distributed setting. For that we'll need a couple adjustments, in
+[the next post](http://ticofab.io/distributed-websocket-server-with-akka-http/)!
 

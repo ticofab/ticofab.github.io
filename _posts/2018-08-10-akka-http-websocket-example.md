@@ -18,7 +18,7 @@ examples I could find were mostly about building a chat and therefore with a bro
 * This actor will reply with `"Hello " + s + "!"` when receiving a String message
 * This actor will pipe down to the client any Int value it receives.
 
-As described in the [Server Side Websocket Support](https://doc.akka.io/docs/akka-http/current/server-side/Websocket-support.html)
+As described in the [Server Side Websocket Support](https://doc.akka.io/docs/akka-http/current/server-side/websocket-support.html)
 page of Akka Http, a Websocket connection is modelled as a Flow that ingests messages and returns messages. 
 The key issue to solve was that I needed a reference to independently push messages down to the connected client. The trick
 that helped me came from [this post](https://bartekkalinka.github.io/2017/02/12/Akka-streams-source-run-it-publish-it-then-run-it-again.html)

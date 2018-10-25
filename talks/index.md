@@ -11,14 +11,14 @@ image:
 ---
 
 #### UPCOMING 2018
-
-* Montreal (CA), **Reactive Summit**, 22nd October 
+ 
 * London (UK), **O'Reilly Software Architecture Conference**, 29th October
 * Amsterdam (NL), **ITNEXT**, 14th November
 * Berlin (DE), **Codemotion**, 20th November
 
 #### 2018
 
+* Montreal (CA), **Reactive Summit**, 22nd October
 * Florence (IT), **Scala Italy**, 14th September
 * Amsterdam (NL), **Software Circus meetup**, 21st August
 * Malaga (ES), **J On The Beach**, 25th May ([📺](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))

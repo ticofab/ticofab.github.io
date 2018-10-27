@@ -19,7 +19,7 @@ image:
 #### 2018
 
 * Montreal (CA), **Reactive Summit**, 22nd October
-* Florence (IT), **Scala Italy**, 14th September
+* Florence (IT), **Scala Italy**, 14th September ([📺](https://vimeo.com/294735363))
 * Amsterdam (NL), **Software Circus meetup**, 21st August
 * Malaga (ES), **J On The Beach**, 25th May ([📺](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
 * Amsterdam (NL), **Codemotion**, 8th May, Panel session

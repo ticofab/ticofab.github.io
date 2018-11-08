@@ -14,6 +14,7 @@ image:
  
 * Amsterdam (NL), **ITNEXT**, 14th November
 * Berlin (DE), **Codemotion**, 20th November
+* Amsterdam (NL), **Google Dev Group CloudFest**, 24th November
 * Amsterdam (NL), **DevJam meetup**, 28th November
 * Amsterdam (NL), **KeenFolk meetup**, 6th December
 

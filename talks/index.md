@@ -12,13 +12,13 @@ image:
 
 #### UPCOMING 2018
  
-* Amsterdam (NL), **KeenFolk meetup**, "Stream Thinking Workshop", 6th December
+* Amsterdam (NL), **KeenFolk meetup**<br>6th December, "Stream Thinking Workshop"<br>
 
 #### 2018
 
 * Amsterdam (NL), **DevJam meetup**<br>"28th November, Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br> 
 * Amsterdam (NL), **Google GDG CloudFest**<br>24th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
-* Berlin (DE), **Codemotion**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 
+* Berlin (DE), **Codemotion**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br> 
 * Amsterdam (NL), **ITNEXT**<br>14th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))<br>
 * London (UK), **O'Reilly Software Architecture Conference**<br>29th October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
 * Montreal (CA), **Reactive Summit**<br>22nd October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://t.co/f0b2mG6SeY))<br>
@@ -40,16 +40,16 @@ image:
 
 #### 2016
 
-* Hilversum (NL), **Dutch Android User Group**<br>23rd August. "Reactive in Android and Beyond Rx"<br>
+* Hilversum (NL), **Dutch Android User Group**<br>23rd August, "Reactive in Android and Beyond Rx"<br><br>
 * Amsterdam (NL), **Codemotion**<br>11th May, "Reactive Android: RxJava and beyond" ([🎬](https://youtu.be/QGYzrEZEW_k))<br>
 
 #### 2015
 
-* Amsterdam (NL), **Reactive Amsterdam meetup**<br>13th November, "Reactive Earthquakes"<br> 
+* Amsterdam (NL), **Reactive Amsterdam meetup**<br>13th November, "Reactive Earthquakes"<br><br>
 
 #### 2014
 
-* Amsterdam (NL), **Amsterdam Scala meetup**<br>"WebSockets with Scala and Play! Framework", 20th March
+* Amsterdam (NL), **Amsterdam Scala meetup**<br>"WebSockets with Scala and Play! Framework", 20th March<br>
 
 
 

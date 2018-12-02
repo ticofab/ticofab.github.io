@@ -49,7 +49,7 @@ image:
 
 #### 2014
 
-* Amsterdam (NL), **Amsterdam Scala meetup**<br>"WebSockets with Scala and Play! Framework", 20th March<br>
+* Amsterdam (NL), **Amsterdam Scala meetup**<br>20th March, "WebSockets with Scala and Play! Framework"<br>
 
 
 

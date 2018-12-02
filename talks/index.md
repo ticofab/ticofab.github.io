@@ -19,7 +19,7 @@ image:
 * Amsterdam (NL), **DevJam meetup**<br>28th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Amsterdam (NL), **Google GDG CloudFest**<br>24th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Berlin (DE), **Codemotion**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
-* Amsterdam (NL), **ITNEXT**<br>14th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))<br><br>
+* Amsterdam (NL), **ITNEXT**<br>14th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([recording](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))<br><br>
 * London (UK), **O'Reilly Software Architecture Conference**<br>29th October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Montreal (CA), **Reactive Summit**<br>22nd October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://t.co/f0b2mG6SeY))<br><br>
 * Florence (IT), **Scala Italy**<br>14th September, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?"([🎬](https://vimeo.com/294735363))<br><br>

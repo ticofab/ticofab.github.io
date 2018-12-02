@@ -12,22 +12,22 @@ image:
 
 #### UPCOMING 2018
  
-* Amsterdam (NL), **ITNEXT**, 14th November
-* Berlin (DE), **Codemotion**, 20th November
-* Amsterdam (NL), **Google GDG CloudFest**, 24th November
-* Amsterdam (NL), **DevJam meetup**, 28th November
-* Amsterdam (NL), **KeenFolk meetup**, 6th December
+* Amsterdam (NL), **KeenFolk meetup**, "Stream Thinking Workshop", 6th December
 
 #### 2018
 
-* London (UK), **O'Reilly Software Architecture Conference**, 29th October
-* Montreal (CA), **Reactive Summit**, 22nd October ([🎬](https://t.co/f0b2mG6SeY))
-* Florence (IT), **Scala Italy**, 14th September ([🎬](https://vimeo.com/294735363))
-* Amsterdam (NL), **Software Circus meetup**, 21st August
-* Malaga (ES), **J On The Beach**, 25th May ([🎬](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
+* Amsterdam (NL), **DevJam meetup**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 28th November
+* Amsterdam (NL), **Google GDG CloudFest**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 24th November
+* Berlin (DE), **Codemotion**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 20th November
+* Amsterdam (NL), **ITNEXT**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 14th November  ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))
+* London (UK), **O'Reilly Software Architecture Conference**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 29th October
+* Montreal (CA), **Reactive Summit**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 22nd October ([🎬](https://t.co/f0b2mG6SeY))
+* Florence (IT), **Scala Italy**, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 14th September ([🎬](https://vimeo.com/294735363))
+* Amsterdam (NL), **Software Circus meetup**, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 21st August
+* Malaga (ES), **J On The Beach**, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 25th May ([🎬](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
 * Amsterdam (NL), **Codemotion**, 8th May, Panel session
-* Krakow (PL), **React Sphere**, 17th April
-* Amsterdam (NL), **Reactive Amsterdam meetup**, 9th April ([🎬](https://youtu.be/M8P3MFmMDk4))
+* Krakow (PL), **React Sphere**, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 17th April
+* Amsterdam (NL), **Reactive Amsterdam meetup**, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 9th April ([🎬](https://youtu.be/M8P3MFmMDk4))
 
 #### 2017
 

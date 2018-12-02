@@ -16,36 +16,36 @@ image:
 
 #### 2018
 
-* Amsterdam (NL), **DevJam meetup**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 28th November
-* Amsterdam (NL), **Google GDG CloudFest**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 24th November
-* Berlin (DE), **Codemotion**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 20th November
-* Amsterdam (NL), **ITNEXT**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 14th November  ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))
-* London (UK), **O'Reilly Software Architecture Conference**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 29th October
-* Montreal (CA), **Reactive Summit**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 22nd October ([🎬](https://t.co/f0b2mG6SeY))
-* Florence (IT), **Scala Italy**<br>"Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 14th September ([🎬](https://vimeo.com/294735363))
-* Amsterdam (NL), **Software Circus meetup**<br>"Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 21st August
-* Malaga (ES), **J On The Beach**<br>"Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 25th May ([🎬](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))
-* Amsterdam (NL), **Codemotion**<br>Community Leaders Panel Session, 8th May
-* Krakow (PL), **React Sphere**<br>"Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 17th April
-* Amsterdam (NL), **Reactive Amsterdam meetup**<br>"Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 9th April ([🎬](https://youtu.be/M8P3MFmMDk4))
+* Amsterdam (NL), **DevJam meetup**<br>"28th November, Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br> 
+* Amsterdam (NL), **Google GDG CloudFest**<br>24th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
+* Berlin (DE), **Codemotion**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 
+* Amsterdam (NL), **ITNEXT**<br>14th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))<br>
+* London (UK), **O'Reilly Software Architecture Conference**<br>29th October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
+* Montreal (CA), **Reactive Summit**<br>22nd October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown" ([🎬](https://t.co/f0b2mG6SeY))<br>
+* Florence (IT), **Scala Italy**<br>"Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?", 14th September ([🎬](https://vimeo.com/294735363))<br>
+* Amsterdam (NL), **Software Circus meetup**<br>21st August, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
+* Malaga (ES), **J On The Beach**<br>25th May, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?"([🎬](https://youtu.be/OOXRgd5yUQo), [🎤](https://youtu.be/pZgrAnORNAU))<br>
+* Amsterdam (NL), **Codemotion**<br>8th May, Community Leaders Panel Session<br>
+* Krakow (PL), **React Sphere**<br>17th April, "Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?"<br> 
+* Amsterdam (NL), **Reactive Amsterdam meetup**<br>"9th April, Cloud Native Akka & Kubernetes: The Holy Grail to Elasticity?"([🎬](https://youtu.be/M8P3MFmMDk4))<br>
 
 #### 2017
 
-* Amsterdam (NL), **Reactive Amsterdam meetup**<br>Highlights from Reactive Summit 2017, 26th October ([🎬](https://youtu.be/J1mkMYIO9gg))
-* The Hague (NL), **Dev/070 meetup**<br>"Reactive Programming or Reactive Systems? (spoiler: both)", 25th October
-* Utrecht (NL), **DomCode meetup**<br>"Reactive Programming or Reactive Systems? (spoiler: both)", 26th September
-* Amsterdam (NL), **Codemotion**<br>"Beyond Fault Tolerance", 16th May ([🎬](https://youtu.be/zgKoAfhCHVE))
-* Amsterdam (NL), **Reactive Amsterdam meetup**<br>"The World is a Streaming Place - Akka Streams at Weeronline", 11th April ([🎤](https://youtu.be/eKkeHHTSETw), [🎬](https://youtu.be/MQGXrrhGUTw))
-* Online Webinar, **Codemotion**<br>"How Reactive Can You Be?", 7th February
+* Amsterdam (NL), **Reactive Amsterdam meetup**<br>26th October, Highlights from Reactive Summit 2017 ([🎬](https://youtu.be/J1mkMYIO9gg))<br>
+* The Hague (NL), **Dev/070 meetup**<br>25th October, "Reactive Programming or Reactive Systems? (spoiler: both)"<br> 
+* Utrecht (NL), **DomCode meetup**<br>26th September, "Reactive Programming or Reactive Systems? (spoiler: both)"<br>
+* Amsterdam (NL), **Codemotion**<br>16th May, "Beyond Fault Tolerance" ([🎬](https://youtu.be/zgKoAfhCHVE))<br>
+* Amsterdam (NL), **Reactive Amsterdam meetup**<br>11th April, "The World is a Streaming Place - Akka Streams at Weeronline" ([🎤](https://youtu.be/eKkeHHTSETw), [🎬](https://youtu.be/MQGXrrhGUTw))<br>
+* Online Webinar, **Codemotion**<br>7th February, "How Reactive Can You Be?"<br> 
 
 #### 2016
 
-* Hilversum (NL), **Dutch Android User Group**<br>"Reactive in Android and Beyond Rx", 23rd August
-* Amsterdam (NL), **Codemotion**<br>"Reactive Android: RxJava and beyond", 11th May ([🎬](https://youtu.be/QGYzrEZEW_k))
+* Hilversum (NL), **Dutch Android User Group**<br>23rd August. "Reactive in Android and Beyond Rx"<br>
+* Amsterdam (NL), **Codemotion**<br>11th May, "Reactive Android: RxJava and beyond" ([🎬](https://youtu.be/QGYzrEZEW_k))<br>
 
 #### 2015
 
-* Amsterdam (NL), **Reactive Amsterdam meetup**<br>"Reactive Earthquakes", 13th November
+* Amsterdam (NL), **Reactive Amsterdam meetup**<br>13th November, "Reactive Earthquakes"<br> 
 
 #### 2014
 

@@ -16,7 +16,7 @@ image:
 
 #### 2018
 
-* Amsterdam (NL), **DevJam meetup**,  "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 28th November
+* Amsterdam (NL), **DevJam meetup**,<br>"Akka ClLLuster vs Kubernetes: Clustering Solutions Showdown", 28th November
 * Amsterdam (NL), **Google GDG CloudFest**,  "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 24th November
 * Berlin (DE), **Codemotion**,  "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 20th November
 * Amsterdam (NL), **ITNEXT**,  "Akka Cluster vs Kubernetes: Clustering Solutions Showdown", 14th November  ([🎬](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s))

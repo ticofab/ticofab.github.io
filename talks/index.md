@@ -10,12 +10,9 @@ image:
 
 ---
 
-#### UPCOMING 2018
- 
-* Amsterdam (NL), **KeenFolk meetup**<br>6th December, "Stream Thinking Workshop"<br>
-
 #### 2018
 
+* Amsterdam (NL), **KeenFolk meetup**<br>6th December, "Stream Thinking with Akka" hands-on workshop<br>
 * Amsterdam (NL), **DevJam meetup**<br>28th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Amsterdam (NL), **Google GDG CloudFest**<br>24th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Berlin (DE), **Codemotion**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>

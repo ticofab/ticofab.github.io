@@ -10,6 +10,12 @@ image:
 
 ---
 
+#### UPCOMING 2019
+
+* **Webinar with Lightbend**<br><br>24th January, "Reactive from Code to Cloud"<br><br>
+* Milan (IT), **Scala Milano meetup**<be><br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>
+* Rome (IT), **Codemotion**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
+
 #### 2018
 
 * Amsterdam (NL), **KeenFolk meetup**<br>6th December, "Stream Thinking with Akka" hands-on workshop<br><br>

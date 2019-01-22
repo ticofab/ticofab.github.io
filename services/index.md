@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About Ticofab
-tags: [about, Jekyll, theme, responsive]
-modified: 2014-08-08T20:53:07.573882-04:00
+title: Services
+tags: [about, services]
+modified: 2019-01-22T20:53:07.573882-04:00
 image:
-  feature: amsterdam-paris-bike.jpg
-  credit: Abbondanti & Dozzinali
-  creditlink: http://www.abbondantiedozzinali.it
-
+  feature: streams-workshop.jpg
+  credit: ticofab
 ---
+
+I help companies design and implement Reactive System. 
 
 Hi, I'm Fabio. I'm a software engineer, conference speaker, and community leader based in Amsterdam. While building my 
 own start up, I fell in love with Akka, Scala, and Reactive systems, so much so that I founded the 2000-member strong 

@@ -1,22 +1,19 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Resume
-  url: /assets/cv/fabio_tiriticco_cv_2018.pdf
+  url: /assets/cv/fabio_tiriticco_cv_2019.pdf
 
 - title: Talks
   url: /talks/
 
-- title: Posts
+- title: Articles
   url: /posts/
 
 - title: Open Source
   url: /open-source/
 
+- title: About
+  url: /about/
+
 - title: Reactive Amsterdam
   url: http://www.meetup.com/Reactive-Amsterdam
-
-#- title: Famsterdam Life
-#  url: http://famsterdamlife.com

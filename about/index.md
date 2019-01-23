@@ -27,15 +27,15 @@ is the easiest way to start a rich conversation.
 
 * Scala / Java
 * Akka
-* Streaming technologies (à la Akka Strems)
+* Streaming technologies
 * Spark
 * Kafka
 
-**Meetup organizer of:**
+**Organizer of:**
 
 * <a href="http://www.meetup.com/Reactive-Amsterdam/">Reactive Amsterdam</a>. Anything Reactive.
 * <a href="http://www.meetup.com/Bicycle-Touring-Amsterdam/">Bicycle Touring Amsterdam</a>.
 
-When not in front of a screen, I enjoy long distance bike rides and fingerpicking his guitar.
+When not in front of a screen, I enjoy long distance bike rides and guitar fingerpicking.
 
 

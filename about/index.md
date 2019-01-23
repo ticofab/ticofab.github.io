@@ -10,15 +10,15 @@ image:
 
 ---
 
-Hi, I'm Fabio - software engineer, conference speaker, and community leader based in Amsterdam. While building my 
-own start up, I fell in love with Akka, Scala, and Reactive systems, so much so that I founded the 2000-member strong 
-Reactive Amsterdam meetup. 
+Hi, I'm Fabio - software engineer, conference speaker, and community leader based in Amsterdam. 
+
+While building my own start up I fell in love with Akka, Scala and Reactive systems, so much so that I founded the Reactive Amsterdam meetup. 
 
 I specialize in architectures for distributed Reactive systems, bridging application level and cloud orchestrators like Kubernetes.
 I love speaking about the importance of integration between application logic and infrastructure, and have done so at many
-conferences (like the *O'Reilly Software Architecture Conference* and the *Reactive Summit*). 
+conferences (like the **O'Reilly Software Architecture Conference** and the **Reactive Summit**). 
 
-Please check a list of [my talks](http://ticofab.io/talks/) andmy full [Resume](http://ticofab.io/assets/cv/fabio_tiriticco_cv_2019.pdf).
+Please check a list of [my talks](http://ticofab.io/talks/) and my full [resume](http://ticofab.io/assets/cv/fabio_tiriticco_cv_2019.pdf).
 
 If you need help with modernizing your stack or improving its performance, do get in touch! An [email](mailto:fabio@ticofab.io) 
 is the easiest way to start a rich conversation.

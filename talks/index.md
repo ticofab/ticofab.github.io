@@ -12,12 +12,12 @@ image:
 
 #### UPCOMING 2019
 
-* Milan (IT), **Scala Milano meetup**<be><br>5th February, "We all need friends, and Akka just found Kubernetes" ([sign up](https://www.meetup.com/milano-scala-group/events/257954604/))<br><br>
+* Milan (IT), **Scala Milano meetup**<be><br>5th February, "We all need friends, and Akka just found Kubernetes" ( [sign up](https://www.meetup.com/milano-scala-group/events/257954604/) )<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
 
 #### 2019
 
-* **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc)<br>24th January, "Reactive from Code to Cloud"<br>
+* **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc)<br>24th January, "Akka and Kubernetes: Reactive from Code to Cloud"<br>
 
 #### 2018
 

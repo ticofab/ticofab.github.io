@@ -12,7 +12,7 @@ image:
 
 #### UPCOMING 2019
 
-* Milan (IT), **Scala Milano meetup**<be><br>5th February, "We all need friends, and Akka just found Kubernetes" ( [sign up](https://www.meetup.com/milano-scala-group/events/257954604/) )<br><br>
+* Milan (IT), **Scala Milano meetup**<br><br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
 
 #### 2019

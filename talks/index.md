@@ -17,7 +17,7 @@ image:
 #### 2019
 
 * Milan (IT), **Scala Milano meetup** - [recording 🇮🇹](https://www.youtube.com/watch?v=NTpHZLj3LjI&feature=youtu.be), [slides](https://www.slideshare.net/FabioTiriticco/we-all-need-friends-and-akka-just-found-kubernetes)<br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>
-* **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc)<br>24th January, "Akka and Kubernetes: Reactive from Code to Cloud"<br>
+* **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc), [slides](https://www.lightbend.com/blog/akka-and-kubernetes-reactive-from-code-to-cloud)<br>24th January, "Akka and Kubernetes: Reactive from Code to Cloud"<br>
 
 #### 2018
 

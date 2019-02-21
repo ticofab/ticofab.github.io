@@ -2,7 +2,7 @@
 layout: post
 title: Caterina, a side project about crypto and big data (series)
 excerpt: "The quest for patterns in crypto events and price variation"
-modified: 2018-07-16
+modified: 2019-02-21
 tags: [scala, akka, akka-streams, akka-stream, event-sourcing]
 comments: false
 ---
@@ -30,5 +30,8 @@ These posts are published on Medium.
 
 * [From Scala app to Kubernetes, part 2](https://itnext.io/more-kubernetes-goodness-for-scala-apps-ff6d9f507140)
 *Stabilization: make sure the flight is smooth.* 🛩
+
+* [Data Analysis on Crypto Events](https://medium.com/@ticofab/data-analysis-on-crypto-events-d66d358b608c)
+*Observation: what can we see from this height?* 🔭
 
 Happy reading & watching!

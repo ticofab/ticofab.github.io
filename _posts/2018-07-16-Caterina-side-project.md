@@ -28,10 +28,10 @@ These posts are published on Medium.
 * [From Scala App to Kubernetes Pod](https://medium.com/@ticofab/from-scala-app-to-kubernetes-pod-d67e0cd6bfaf)  
 *Takeoff: from local computer to the sky.* 🚀
 
-* [From Scala app to Kubernetes, part 2](https://itnext.io/more-kubernetes-goodness-for-scala-apps-ff6d9f507140)
+* [From Scala app to Kubernetes, part 2](https://itnext.io/more-kubernetes-goodness-for-scala-apps-ff6d9f507140)<br>
 *Stabilization: make sure the flight is smooth.* 🛩
 
-* [Data Analysis on Crypto Events](https://medium.com/@ticofab/data-analysis-on-crypto-events-d66d358b608c)
+* [Data Analysis on Crypto Events](https://medium.com/@ticofab/data-analysis-on-crypto-events-d66d358b608c)<br>
 *Observation: what can we see from this height?* 🔭
 
 Happy reading & watching!

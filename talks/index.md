@@ -12,7 +12,8 @@ image:
 
 #### UPCOMING 2019
 
-* Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br>
+* Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
+* Amsterdam (NL) **Dutch Cloud Native meetup**, **11th April, "Reactive from Code to Cloud"<br>
 
 #### 2019
 

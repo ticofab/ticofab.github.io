@@ -12,11 +12,11 @@ image:
 
 #### UPCOMING 2019
 
-* Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br>
 
 #### 2019
 
+* Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Milan (IT), **Scala Milano meetup** - [recording 🇮🇹](https://www.youtube.com/watch?v=NTpHZLj3LjI&feature=youtu.be), [slides](https://www.slideshare.net/FabioTiriticco/we-all-need-friends-and-akka-just-found-kubernetes)<br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>
 * **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc), [slides](https://www.lightbend.com/blog/akka-and-kubernetes-reactive-from-code-to-cloud)<br>24th January, "Akka and Kubernetes: Reactive from Code to Cloud"<br>
 
@@ -25,7 +25,7 @@ image:
 * Amsterdam (NL), **KeenFolk meetup**<br>6th December, "Stream Thinking with Akka" hands-on workshop<br><br>
 * Amsterdam (NL), **DevJam meetup**<br>28th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Amsterdam (NL), **Google GDG CloudFest**<br>24th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
-* Berlin (DE), **Codemotion Berlin**<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
+* Berlin (DE), **Codemotion Berlin** - [recording](https://youtu.be/1ICRGG_g5yQ)<br>20th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Amsterdam (NL), **ITNEXT** - [recording](https://www.youtube.com/watch?v=v2j2SyVhzTY&t=1s)<br>14th November, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * London (UK), **O'Reilly Software Architecture Conference**<br>29th October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Montreal (CA), **Reactive Summit** - [recording](https://t.co/f0b2mG6SeY)<br>22nd October, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>

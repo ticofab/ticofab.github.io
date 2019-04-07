@@ -12,7 +12,8 @@ image:
 
 #### UPCOMING 2019
 
-* Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br>
+* Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
+* Ljubljana, Slovenia (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 

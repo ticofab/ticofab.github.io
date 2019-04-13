@@ -12,11 +12,11 @@ image:
 
 #### UPCOMING 2019
 
-* Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
 * Ljubljana, Slovenia (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 
+* Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Milan (IT), **Scala Milano meetup** - [recording 🇮🇹](https://www.youtube.com/watch?v=NTpHZLj3LjI&feature=youtu.be), [slides](https://www.slideshare.net/FabioTiriticco/we-all-need-friends-and-akka-just-found-kubernetes)<br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>
 * **⭐ Webinar with Lightbend ⭐️** - [recording](https://www.youtube.com/watch?v=FyneQrH-0Rc), [slides](https://www.lightbend.com/blog/akka-and-kubernetes-reactive-from-code-to-cloud)<br>24th January, "Akka and Kubernetes: Reactive from Code to Cloud"<br>

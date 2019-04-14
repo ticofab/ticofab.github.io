@@ -12,7 +12,7 @@ image:
 
 #### UPCOMING 2019
 
-* Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
+* Ljubljana, Slovenia (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 

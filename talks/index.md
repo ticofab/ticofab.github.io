@@ -12,7 +12,8 @@ image:
 
 #### UPCOMING 2019
 
-* Ljubljana, Slovenia (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
+* Listbona (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
+* Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 

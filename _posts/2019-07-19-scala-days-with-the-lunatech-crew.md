@@ -68,7 +68,7 @@ was a good way for me to catch-up on the latest best practices and new features 
 _Picture below: Lunatech organised a support funding for the [Let Luna Shine](https://www.gofundme.com/let-luna-shine) cause,
 and they would donate 1 euro for each picture taken with their mascotte._ 
 
-![When in Switzerland, enjoy the real fondue.](/images/lunatech-fondue-lausanne-scala-days-2019.png)
+![When in Switzerland, enjoy the real fondue.](/images/lunatech-let-luna-shy-scala-days.png)
 
 ## The Akka / Scala / K8S combo is the best thing out there today and I hope it succeeds
 

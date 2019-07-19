@@ -43,14 +43,16 @@ that the classic C1 and C2 JIT compilers were not written with other languages t
 of them didn't exist at the time. Twitter runs their services on premise - they have their own data centers - and little tweaks and optimisation can have a tremendous impact.
 If you are using Java 11, enabling GraalVM is as simple as adding three compilation options:
 
+{% highlight java %}
 {% raw %}
 java [your other options]
      -XX:+UnlockExperimentalVMOptions \
      -XX:+EnableJVMCI \
      -XX:+UseJVMCICompiler
 {% endraw %}
+{% endhighlight %}
 
-Picture below: enjoying the _real_ Swiss fondue with the Lunatech crew!
+_Picture below: enjoying the real Swiss fondue with the Lunatech crew!_
 
 ![When in Switzerland, enjoy the real fondue.](/images/lunatech-fondue-lausanne-scala-days-2019.png)
 
@@ -63,8 +65,8 @@ I am currently working on a .NET environment and I find nothing comparable in te
 The talk I attended by Heiko Seeberger, [Akka Streams to the Extreme](https://scaladays.org/schedule/akka-streams-to-the-extreme),
 was a good way for me to catch-up on the latest best practices and new features about this great piece of technology. Check it out!
 
-Picture below: Lunatech organised a support funding for the [Let Luna Shine](https://www.gofundme.com/let-luna-shine) cause,
-and they would donate 1 euro for each picture taken with their mascotte. 
+_Picture below: Lunatech organised a support funding for the [Let Luna Shine](https://www.gofundme.com/let-luna-shine) cause,
+and they would donate 1 euro for each picture taken with their mascotte._ 
 
 ![When in Switzerland, enjoy the real fondue.](/images/lunatech-fondue-lausanne-scala-days-2019.png)
 

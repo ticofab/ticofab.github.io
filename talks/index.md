@@ -12,11 +12,15 @@ image:
 
 #### UPCOMING 2019
 
-* Listbona (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
-* Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br>
+* Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Akka Streams"<br><br>
+* Lyon (FR), **Scala IO**<br>30th October, "Tame Crypto Events with Akka Streams"<br><br>
+* Milan (IT), **Italian Community Managers Summit**<br>15th November, "Ten frustrations from the community trenches - and how to deal with them"<br><br>
+* Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br><br>
+* London (UK), **Scala Xchange**<br>12th December, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 
+* Listbona (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
 * Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>
 * Milan (IT), **Scala Milano meetup** - [recording 🇮🇹](https://www.youtube.com/watch?v=NTpHZLj3LjI&feature=youtu.be), [slides](https://www.slideshare.net/FabioTiriticco/we-all-need-friends-and-akka-just-found-kubernetes)<br>5th February, "We all need friends, and Akka just found Kubernetes"<br><br>

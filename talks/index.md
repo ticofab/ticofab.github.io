@@ -15,6 +15,7 @@ image:
 * Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Amsterdam (NL), **Via Student Association**<br>15th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Lyon (FR), **Scala IO**<br>30th October, "Tame Crypto Events with Akka Streams"<br><br>
+* Amsterdam (NL), **Women in Tech Regatta**<br>1s November, Panel moderator for "Staying Strong in Tech"<br><br>
 * Antwerp (BE), **Belgian Scala User Group**<br>7th November, "Tame Crypto Events with Akka Streams"<br><br>
 * Milan (IT), **Italian Community Managers Summit**<br>15th November, "Ten frustrations from the community trenches - and how to deal with them"<br><br>
 * Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br><br>

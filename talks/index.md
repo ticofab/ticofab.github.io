@@ -19,7 +19,7 @@ image:
 * Antwerp (BE), **Belgian Scala User Group**<br>7th November, "Tame Crypto Events with Akka Streams"<br><br>
 * Milan (IT), **Italian Community Managers Summit**<br>15th November, "Ten frustrations from the community trenches - and how to deal with them"<br><br>
 * Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Akka Streams"<br><br>
-* London (UK), **Scala Xchange**<br>12th December, "Tame Crypto Events with Akka Streams"<br>
+* London (UK), **Scala eXchange**<br>12th December, "Tame Crypto Events with Akka Streams"<br>
 
 #### 2019
 

@@ -12,7 +12,6 @@ image:
 
 #### UPCOMING 2019
 
-* Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Amsterdam (NL), **University of Amsterdam, Via Student Association**<br>15th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Lyon (FR), **Scala IO**<br>30th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Amsterdam (NL), **Women in Tech Regatta**<br>1s November, Panel moderator for "Staying Strong in Tech"<br><br>
@@ -23,6 +22,7 @@ image:
 
 #### 2019
 
+* Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Akka Streams"<br><br>
 * Lisbon (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
 * Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>

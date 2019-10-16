@@ -12,7 +12,6 @@ image:
 
 #### UPCOMING 2019
 
-* Amsterdam (NL), **University of Amsterdam, Via Student Association**<br>15th October, "Tame Crypto Events with Streaming"<br><br>
 * Lyon (FR), **Scala IO**<br>30th October, "Tame Crypto Events with Streaming"<br><br>
 * Amsterdam (NL), **Women in Tech Regatta**<br>1s November, Panel moderator for "Staying Strong in Tech"<br><br>
 * Antwerp (BE), **Belgian Scala User Group**<br>7th November, "Tame Crypto Events with Streaming"<br><br>
@@ -22,6 +21,7 @@ image:
 
 #### 2019
 
+* Amsterdam (NL), **University of Amsterdam**<br>15th October, "Tame Crypto Events with Streaming"<br><br>
 * Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Streaming"<br><br>
 * Lisbon (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
 * Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>

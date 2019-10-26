@@ -22,7 +22,7 @@ image:
 #### 2019
 
 * Amsterdam (NL), **University of Amsterdam**<br>15th October, "Tame Crypto Events with Streaming"<br><br>
-* Krakow (PL), **React Sphere**<br>9th October, "Tame Crypto Events with Streaming"<br><br>
+* Krakow (PL), **React Sphere** - [recording](https://www.youtube.com/watch?v=P1W1CSnZdS4)<br>9th October, "Tame Crypto Events with Streaming"<br><br>
 * Lisbon (PT), **Lx Scala & Reactive**<br>4th July, "Reactive From Code to Cloud"<br><br>
 * Amsterdam (NL), **Dutch Cloud Native meetup**<br>11th April, "Reactive from Code to Cloud"<br><br>
 * Rome (IT), **Codemotion Rome**<br>22nd March, "Akka Cluster vs Kubernetes: Clustering Solutions Showdown"<br><br>

@@ -12,11 +12,11 @@ image:
 
 #### UPCOMING 2019
 
-* Ljubljana (SI), **BeeScala**<br>21st November, "Tame Crypto Events with Streaming"<br><br>
-* London (UK), **Scala eXchange**<br>12th December, "Tame Crypto Events with Streaming"<br>
+* London (UK), **London Scala Users Group**<br>14th December, "Tame Crypto Events with Streaming"<br>
 
 #### 2019
 
+* Ljubljana (SI), **BeeScala** - [recording](https://www.youtube.com/watch?v=wk8g83XRUzQ)<br>21st November, "Tame Crypto Events with Streaming"<br><br>
 * Lyon (FR), **Scala IO**<br>30th October, "Tame Crypto Events with Streaming"<br><br>
 * Amsterdam (NL), **Women in Tech Regatta**<br>1st November, Panel moderator for "Staying Strong in Tech"<br><br>
 * Antwerp (BE), **Belgian Scala User Group**<br>7th November, "Tame Crypto Events with Streaming"<br><br>

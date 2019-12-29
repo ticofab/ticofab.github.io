@@ -1,0 +1,10 @@
+
+Hora UTC:	20:42:41 05/12/2010
+Latitud:	-33 16' 15''
+Longitud:	-72 3' 14''
+Profundidad:	40.9 km
+Magnitud:	4.1 (Ml) GUC      
+Fuente:	Servicio Sismológico (U. de Chile)
+Referencia: 48 km al SO de Valparaíso
+
+Intensidades  (Escala de Mercalli)

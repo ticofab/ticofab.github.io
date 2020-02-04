@@ -133,19 +133,19 @@
           <p><strong>The First False Step</strong></p>
 <p>Some time ago I had purchased a <a href="https://www.pycom.io/product/lopy/">LoPy</a> module and a <a href="http://sodaq.com">SodaqONE</a> module. The LoPy seemed somewhat simpler to get started with, so I unpacked it first and started reading the online documentation.</p>
 <p><img src="2015-07-29-lopy.jpg" alt="The unpacked LoPy"></p>
-<p>It didn't take me long to realise that the LoPy module is only the gateway to the LoRa netowrk, and that I would need the expansion board to connect it to my computer and update its firware. Doh.</p>
-<p>Let's move on to my Sodaq ONE package.</p>
+<p>It didn&rsquo;t take me long to realise that the LoPy module is only the gateway to the LoRa netowrk, and that I would need the expansion board to connect it to my computer and update its firware. Doh.</p>
+<p>Let&rsquo;s move on to my Sodaq ONE package.</p>
 <p><strong>The Sodaq ONE trials</strong></p>
 <p>Following the handy <a href="http://support.sodaq.com/sodaq-one/sodaq-one/">getting started guide</a>, I installed the Arduino IDE and the additional Board Manager for the Sodaq ONE.</p>
 <p><img src="2015-07-29-sodaq.jpg" alt="The unpacked LoPy"></p>
 <p>Unfortunately the guide stops at the end of the IDE installation, and in order to go further I had to follow the official SODAQ instructional video to be found <a href="https://www.youtube.com/watch?v=G3OovUzntz0">here</a>.
-At the end, a <a href="https://github.com/GabrielNotman/AutonomoTesting/blob/master/Pin%20IO/blink/blink.ino">simple &lsquo;blink&rsquo; example</a> is suggested. Copy/pasting the code won't be enough tho, as the IDE will complain that</p>
+At the end, a <a href="https://github.com/GabrielNotman/AutonomoTesting/blob/master/Pin%20IO/blink/blink.ino">simple &lsquo;blink&rsquo; example</a> is suggested. Copy/pasting the code won&rsquo;t be enough tho, as the IDE will complain that</p>
 <pre><code>'LED_BUILTIN' was not declared in this scope
 </code></pre><p>This happens as the Sodaq ONE board has different defines for its leds. We can use LED_RED, LED_GREEN or LED_BLUE alternatively.</p>
 <p>This is all cool, but towards the end the next problem came up: the board disappears shortly after connecting it with the following goodbye message:</p>
 <pre><code>** Boot-up completed successfully!
 The USB is going to be disabled now.
-</code></pre><p>It seems that this is quite normal (?), and if you upload your sketch before this message appears then it won't disconnect again. I fiddled around a bit with the blink example - mostly to get my fingers to type C-style code again - and this is the results. Everything works as expected.</p>
+</code></pre><p>It seems that this is quite normal (?), and if you upload your sketch before this message appears then it won&rsquo;t disconnect again. I fiddled around a bit with the blink example - mostly to get my fingers to type C-style code again - and this is the results. Everything works as expected.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#</span><span style="color:#75715e">define TEST_LED LED_BLUE</span><span style="color:#75715e">
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
@@ -168,7 +168,7 @@ The USB is going to be disabled now.
   delay(<span style="color:#ae81ff">500</span>);
 }
 </code></pre></div><p>This sketch (and others to follow) is available on a <a href="https://github.com/ticofab/sodaq-one-sketches">github repo</a>.</p>
-<p>The next step I wanted to achieve was to connect my device to <a href="https://www.thethingsnetwork.org">The Things Network</a>. I live in Amsterdam, which is where the network was born, so that should be a well-covered area. I even contributed back then with the <a href="https://github.com/ticofab/The-Things-Network-Android-SDK">TTN Android SDK</a>, now deprecated. I followed the instructions as per the <a href="https://github.com/TheThingsNetwork/workshops/blob/master/IoT-Tech-Day.md">IoT days 2017 workshop</a>, and grabbed the Sodaq ONE <a href="https://github.com/SodaqMoja/SodaqOne-UniversalTracker">Universal Tracker</a> to get things going, but with little success. Even with all settings correct, the device disconnects and I can't see any incoming data in the TTN console.</p>
+<p>The next step I wanted to achieve was to connect my device to <a href="https://www.thethingsnetwork.org">The Things Network</a>. I live in Amsterdam, which is where the network was born, so that should be a well-covered area. I even contributed back then with the <a href="https://github.com/ticofab/The-Things-Network-Android-SDK">TTN Android SDK</a>, now deprecated. I followed the instructions as per the <a href="https://github.com/TheThingsNetwork/workshops/blob/master/IoT-Tech-Day.md">IoT days 2017 workshop</a>, and grabbed the Sodaq ONE <a href="https://github.com/SodaqMoja/SodaqOne-UniversalTracker">Universal Tracker</a> to get things going, but with little success. Even with all settings correct, the device disconnects and I can&rsquo;t see any incoming data in the TTN console.</p>
 <pre><code>Settings:
   GPS (OFF=0 / ON=1)         (gps=): 1
   Fix Interval (min)         (fi=): 1
@@ -195,7 +195,7 @@ The USB is going to be disabled now.
 Initializing LoRa...
 ** Boot-up completed successfully!
 The USB is going to be disabled now.
-</code></pre><p>As a first day into IoT experiments, I had fun. I am curious about the recent Android Things initiative. But first let's get this connection to work!</p>
+</code></pre><p>As a first day into IoT experiments, I had fun. I am curious about the recent Android Things initiative. But first let&rsquo;s get this connection to work!</p>
 
         </section>
       </div>

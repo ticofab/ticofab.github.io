@@ -130,11 +130,11 @@
         <div class="divider"></div>
         
         <section class="section content has-text-justified">
-          <p>My most popular repository on GitHub is the <a href="https://github.com/ticofab/simple-play-websocket-server">Simple Play Websocket Server</a>, so I'm writing a little explanatory post to go with it.</p>
+          <p>My most popular repository on GitHub is the <a href="https://github.com/ticofab/simple-play-websocket-server">Simple Play Websocket Server</a>, so I&rsquo;m writing a little explanatory post to go with it.</p>
 <p>I assume you have created a new Play/Scala application. There are two ways you can create a Websocket endpoint in your server:</p>
 <ul>
 <li>Processing messages with an Actor, or</li>
-<li>Using Play's Iteratees and Enumerators.</li>
+<li>Using Play&rsquo;s Iteratees and Enumerators.</li>
 </ul>
 <p>My example server uses both, but I personally favor the second option. Iteratees and Enumerators are more complicated than using an Actor at first glance, but they are also closer to the functional core of Play and definitely more elegant in terms of behaviors that you can achieve with it. To follow this example, you need a basic understanding of Iteratees and Enumerators.</p>
 <p>As you have read, a WebSocket endpoint can return an <code>(Iteratee, Enumerator)</code> pair. The first example is an echo endpoint that sends back whatever it receives. Remember that each example needs the corresponding endpoint defined in you <code>routes</code> file - or a different injected router since Play 2.4.</p>
@@ -166,7 +166,7 @@
     <span style="color:#f92672">(</span><span style="color:#a6e22e">Iteratee</span><span style="color:#f92672">.</span>ignore<span style="color:#f92672">[</span><span style="color:#66d9ef">Array</span><span style="color:#f92672">[</span><span style="color:#66d9ef">Byte</span><span style="color:#f92672">]</span><span style="color:#f92672">]</span><span style="color:#f92672">,</span> outEnumerator<span style="color:#f92672">.</span>andThen<span style="color:#f92672">(</span><span style="color:#a6e22e">Enumerator</span><span style="color:#f92672">.</span>eof<span style="color:#f92672">)</span><span style="color:#f92672">)</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>The &lsquo;static&rsquo; Enumerator Object has a <code>fromFile</code> method to return an Enumerator that uses the content of a file as a source of data to stream. We push the file contents down the pipe and then close the connection chaining the special <code>Enumerator.eof</code> to close the WebSocket connection.</p>
-<p>Follows an example with an Actor as handler. It's little more than the official documentation example:</p>
+<p>Follows an example with an Actor as handler. It&rsquo;s little more than the official documentation example:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">EchoWebSocketActor</span><span style="color:#f92672">(</span>out<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">ActorRef</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Actor</span> <span style="color:#f92672">{</span>
   <span style="color:#66d9ef">def</span> receive <span style="color:#66d9ef">=</span> <span style="color:#f92672">{</span>
     <span style="color:#66d9ef">case</span> msg<span style="color:#66d9ef">:</span> <span style="color:#66d9ef">String</span> <span style="color:#f92672">=&gt;</span>

@@ -2,7 +2,9 @@
 <html lang="en-us">
   <head><link rel="icon" href="/favicon_main.svg"><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta http-equiv="x-ua-compatible" content="ie=edge" /><title>Ticofab&#39;s Blog - neural networks</title>
+<meta http-equiv="x-ua-compatible" content="ie=edge" /><meta property="og:url"  content="https://ticofab.io/blog/understanding-deep-learning-with-rabbits-and-cats/" />
+    <meta property="og:type" content="article" /><meta property="og:title" content="Understanding Deep Learning With Rabbits And Cats" /><meta property="og:description" content="How does your brain tell a rabbit from a cat?" /><meta property="og:image:width"  content="600" />
+        <meta property="og:image:height" content="428" /><meta property="og:image" content="https://ticofab.io/blog/understanding-deep-learning-with-rabbits-and-cats/understanding-deep-learning-with-rabbits-and-cats_hu22972a19aa06f3d1bd37fc6b90f9969b_543402_600x0_resize_box_2.png" /><title>Ticofab&#39;s Blog - Understanding Deep Learning With Rabbits And Cats</title>
 
     
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans" rel="stylesheet">
@@ -118,45 +120,86 @@
     </div>
   </nav>
 <section class="section is-medium">
-        <div class="container">
-          
-            
-              <h1 class="title section-title">neural networks</h1>
-              <h5 class="subtitle is-5 is-muted"></h5>
-              <div class="divider"></div>        
-              <div class="section is-small">
-                <div class="columns">
-                    <div class="column is-4"><div class="box">
-      <figure class="image is-3by2">
-        <a href="/blog/understanding-deep-learning-with-rabbits-and-cats/">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title is-2 section-title">Understanding Deep Learning With Rabbits And Cats</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
         
-           
-           
-          
-            <img src="/blog/understanding-deep-learning-with-rabbits-and-cats/understanding-deep-learning-with-rabbits-and-cats_hu22972a19aa06f3d1bd37fc6b90f9969b_543402_600x0_resize_box_2.png" style="width: auto; margin:auto" alt="">
-          
-        
-        </a>
-      </figure>
-      <h3 class="title is-5 refresh-summary-title">
-        Understanding Deep Learning With Rabbits And Cats
-      </h3>
-      <p class="refresh-summary">How does your brain tell a rabbit from a cat?</p> 
-      <div class="action has-text-right">
-        <a href="/blog/understanding-deep-learning-with-rabbits-and-cats/" class="button is-primary">
-                Read more
-            </a>
+        <section class="section content has-text-justified">
+          <p>Please look at this picture for a moment:</p>
+<p><img src="understanding-deep-learning-with-rabbits-and-cats.png" alt="Understanding Deep Learning With Rabbits And Cats"></p>
+<p>How long did it take you to tell the rabbit from the cat?</p>
+<p>I bet it was instantaneous: you just knew.</p>
+<p>If you were to break down the steps your brain took, It would likely be something like:</p>
+<ul>
+<li>Both animals have black and white fur, two ears and four legs</li>
+</ul>
+<p>But,</p>
+<ul>
+<li>The cat’s ears are shorter</li>
+<li>The rabbit’s eyes are on the side.</li>
+<li>The cat’s tail is longer.</li>
+</ul>
+<p>Your brain zipped through these steps - and many more - in a fraction of a second.</p>
+<p>Now, could you write an <em>algorithm</em> that replicates the same process?
+You might rightfully conclude that it would be practically impossible.</p>
+<h2 id="the-ai-revolution">The AI Revolution</h2>
+<p>DeepLearning Networks (or Neural Networks) are the answer. Their ability to “learn from experience” makes coding redundant,
+and their incredible achievements in image recognition are what fueled the interest in AI over the past decade.</p>
+<p>Say you have a stock of cute rabbit images.</p>
+<p><img src="training-rabbit-images.png" alt="Training Rabbit Images"></p>
+<p>You can feed them to a specific kind of neural network built for the purpose. This network will scan all of them through
+fine grained filters, that you can think of as a grid, like this one below but at pixel level.</p>
+<p><img src="rabbit-grid.png" alt="Rabbit in a grid"></p>
+<p>The network will eventually select the combination of filters that is best able to detect the presence of a rabbit in
+any given image. In other words, the network learns the combination of features that make rabbits unique - their “rabbitness”!</p>
+<h2 id="how-does-the-network-learn">How Does The Network Learn?</h2>
+<p>The basic unit of a neural network is the Artificial Neuron, modeled directly on the neurons in the brains of humans and
+animals. In practice, an artificial neuron is simply a mathematical function (named Transfer Function) with n weighted inputs.</p>
+<p><img src="artificial-neuron.png" alt="An Artificial Neuron"></p>
+<p>The output value of the transfer function is passed on to the Activation Function, which is just a filter. Based on the
+output res, it will decide whether to propagate it as global output of the neuron, or filter it out and emit zero.</p>
+<p>This is it.</p>
+<p>“It doesn’t look so powerful”, you might wonder. True enough: the immense power is only unlocked when very large amounts of neurons are combined.</p>
+<p>A typical neural network looks like the following image.</p>
+<p><img src="neural-network.png" alt="Neural Network"></p>
+<p>If we use A, B and C as inputs, some neurons will propagate the result of their transfer function to the next ones, and the final outputs will be 2 and 5.</p>
+<p><img src="neural-network-activated-red.png" alt="Neural Network Activated"></p>
+<p>If inputs change to T, P and G, the information will follow different paths to outputs 7 and 1.</p>
+<p><img src="neural-network-activated-blue.png" alt="Neural Network Activated"></p>
+<p>The different paths for different inputs stem from the weight configuration on each neuron. With thousands of them, combinations are practically infinite.</p>
+<p>So to answer our question: <strong>the network “learns” the rabbitness of rabbits by tuning the weights on each single neuron until results are satisfactory.</strong></p>
+<p>This process requires thousands of images and massive computational power, which was largely unavailable until recently.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>Inspired by neural networks? You can <a href="http://shop.oreilly.com/product/0636920035343.do">learn more</a> and model your first
+AI around a domain you are passionate about, with the help of a DeepLearning library for the JVM!</p>
+<p><a href="https://deeplearning4j.konduit.ai/">Deeplearning4j</a> is my favourite and the pseudo-code to build the network is quite readable:</p>
+<div class="columns is-centered container"><div class="column is-two-thirds"><pre><code class="code-highlight language-java">final var network = 
+  new NeuralNetConfiguration.Builder()
+    .list()
+    .setInputType(...) // CONFIGURE INPUT LAYER
+    .layer(0, new MyLatyer.Builder()
+       // CONFIGURE FIRST LAYER
+       .build())
+    .layer(1, new MySecondLayer.Builder()
+       // CONFIGURE SECOND LAYER
+       .build())
+    .layer(2, new OutputLayer.Builder()
+       // CONFIGURE OUTPUT LAYER
+       .build())
+    .build();</code></pre></div>
+</div>
+<p>Beware: training a neural network and watching it improve over time will spark true emotions. After all, the process is
+<em>exactly</em> the same that babies go through while discovering the world.</p>
+
+        </section>
       </div>
     </div>
-  </div>
-
-                  </div>
-                
-              </div>
-            
-          
-        </div>
-    </section><footer class="footer footer-dark">
+  </div>  
+  </section>
+<footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
       <div class="column">

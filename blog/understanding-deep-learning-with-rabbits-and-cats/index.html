@@ -134,7 +134,9 @@
 <p>I bet it was instantaneous: you just knew.</p>
 <p>If you were to break down the steps your brain took, It would likely be something like:</p>
 <ul>
-<li>Both animals have black and white fur, two ears and four legs</li>
+<li>Both animals have black and white fur</li>
+<li>Both animals have two ears</li>
+<li>Both animals have four legs</li>
 </ul>
 <p>But,</p>
 <ul>
@@ -180,7 +182,7 @@ AI around a domain you are passionate about, with the help of a DeepLearning lib
   new NeuralNetConfiguration.Builder()
     .list()
     .setInputType(...) // CONFIGURE INPUT LAYER
-    .layer(0, new MyLatyer.Builder()
+    .layer(0, new MyLayer.Builder()
        // CONFIGURE FIRST LAYER
        .build())
     .layer(1, new MySecondLayer.Builder()

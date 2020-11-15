@@ -228,6 +228,39 @@ This project was incredibly special as it has been the one and only paying custo
   </div>
 <div class="column is-4"><div class="box">
       <figure class="image is-3by2">
+        <a href="/projects/weeronline/">
+        
+          <img src="/projects/weeronline/weeronline-symbols_hu11dbb7a26ab0b631abcd03ce2a826535_50387_600x0_resize_box_2.png" alt="">
+        
+        </a>
+      </figure>
+      <h3 class="title is-5 refresh-summary-title">
+        2016 to 2018 - Weeronline
+      </h3>
+      <p class="refresh-summary">Weeronline is one of the leading weather forecast platforms in the Netherlands. &amp;lsquo;Weeronline&amp;rsquo; literally translates to &amp;lsquo;Weather online&amp;rsquo;. Mostly ad-funded, Weeronline is a very successful business. In fact, I wsa quite shocked to learn the yearly revenues, but it all made sense when I realized that weather services are most valuable in places where the weather is very uncertain and fluctuating. For example: in Sicily, where you would expect the sun to shine on most days throughout the day, you would rarely check a forecast app. The Netherlands, with its famously unpredictable &amp;lsquo;four seasons in one day&amp;rsquo; weather, these apps are literally among the most useful of all.
+   During my years at Weeronline I covered three different roles and each one gets its own section.
+Java Android Developer I worked on the release of the second version of the Android app. My main achievement was introducing dependency injection with Dagger, which lead to a cleaner codebase. Beside that huge effort, the rest was the usual app development that you would expect:
+ HTTP interaction with data sources, managing latency and errors Asset management for different screens and resolutions UI navigation     Scala Backend Developer The company Weeronline was part of a bigger German holding called HolidayCheck (which sold it in 2020). They used Scala as main backend language and there was an effort to unify the tech stack.
+The challenge was immense as Weeronline&amp;rsquo;s legacy servers were written in Visual Basic 6, which nobody really understood. One of my first tasks was indeed to map all that incredible legacy, spread across dozens of servers managed by a local provider. The result of that effort were the infamous &amp;lsquo;lanes&amp;rsquo;. I covered an entire wall with these flows linking data sources, processing logic, outcomes and their business value.
+Johnny is mind-blown by the lanes.   Mapping those ETL flows was a huge effort, but it paid off in terms of visibility and prioritization of the work to do. Two features emerged as the most valuable ones within the system: the 2-hour precipitation radar and the global forecast up to 14 days in the future. Had the current implementations gone down, that would have meant great losses for the company.
+   The precipitation radar was the fist one to tackle. The Dutch Meteorological Institute (KNMI) releases regularly satellite images of the Dutch sky. Combining those with wind, humidity and other factors, it&amp;rsquo;s possible to generate reliable precipitation predictions for the coming 120 minutes. You still need to remove noise and other steps, but the process looks roughly like this:
+   The other massive piece of work was the weather forecast up to 14 days in the future. Data was regularly ingested from a third party provider - a German company that has 16.000 weather stations all around the globe. This immense amount of information was processed through a lot of different formulas to output worldwide forecasts, wind information, activity suggestions based on weather and a lot more. It would look like this in the frontend.
+   Both features were built using Scala and Akka (Streams), packaged as a Docker container and deployed on Kubernetes, using mostly Kafka as glue between the different services.
+Tech Lead At some point at the end of 2016 I was made Tech Lead, and the entire development department reported to me. I stopped coding and became instead more involved in high-level architectural discussions spanning the entire spectrum, from backend services to mobile and web frontends. I became a connection between stakeholders, product owners and developers and actively helped to shape roadmaps based on required development efforts and business value.
+I did a lot of hiring and people management too, growing the department to 16 developers at its peak, divided in three teams, each one with its own leader. I fought and won some free creative time (a monthly internal event named Freaky Friday). I did my best to foster community engagement within my departments, hosting a few meetup events (I spoke at two of them).
+   This career change definitely took me out of my comfort zone. All of a sudden I was in meetings all day, and &amp;lsquo;time management&amp;rsquo; acquired an entire new meaning. Looking back at the experience, I think I did an honest job, but I can also see so many things I could have done differently. Letting go of the technical side wasn&amp;rsquo;t easy, and I should have definitely delegated more. I worked hard to get my vision realized, while what matters is the team&amp;rsquo;s vision. I tried to be on top of too many things at the same time, which resulted in a lot of stress. The hardest part was the leader&amp;rsquo;s loneliness. After being a &amp;lsquo;brogrammer&amp;rsquo; throughout my career, in the new role I felt disconnected from the devs in my team, like if an invisible wall was standing right in between. I had to manage a few very difficult cases: a despotic developer with sociopathic traits, a poorly skilled one, making someone redundant (dealing with laws and lawyers), and all the internal conflict that ensued. This all took a toll and after exactly one year I went back to software development.
+As the saying goes tho, experience is the best teacher. I really have learned a lot from my mistakes and I worked hard on my empathy and compassion. As I write, I am in a leading position again - and I can see the huge difference. I am finally able to put in practice all the good advice by my manager at the time, to delegate and let go, focusing on the longer term wins rather than the daily reward of fixing a bug or adding a feature. I have my side projects for those kinds of tech achievements!
+Approaching my job with a different perspective lets me embrace both pains &amp;amp; joys of being a leader, and I am actually even having fun! Without the experience at Weeronline I wouldn&amp;rsquo;t have been able to tackle the current one with this spirit. And I can only be all the more thankful to everyone that I met there, difficult people included. 🙂
+</p> 
+      <div class="action has-text-right">
+        <a href="/projects/weeronline/" class="button is-primary">
+                Read more
+            </a>
+      </div>
+    </div>
+  </div>
+<div class="column is-4"><div class="box">
+      <figure class="image is-3by2">
         <a href="/projects/tomtom/">
         
           <img src="/projects/tomtom/go1000_hu30910665284931ace4f57faa1e01d828_124618_600x0_resize_q75_box.jpg" alt="">
@@ -257,7 +290,10 @@ This is what I wrote to my friends afterwards.
       </div>
     </div>
   </div>
-<div class="column is-4"><div class="box">
+
+                          </div>
+                          <div class="columns">
+                            <div class="column is-4"><div class="box">
       <figure class="image is-3by2">
         <a href="/projects/horsha/">
         
@@ -280,10 +316,7 @@ During that time, I also started working on one of my most successful open-sourc
       </div>
     </div>
   </div>
-
-                          </div>
-                          <div class="columns">
-                            <div class="column is-4"><div class="box">
+<div class="column is-4"><div class="box">
       <figure class="image is-3by2">
         <a href="/projects/academic-research/">
         
@@ -342,7 +375,10 @@ var matchedDevice: Option[ActorRef] = None override def receive: Receive = { cas
       </div>
     </div>
   </div>
-<div class="column is-4"><div class="box">
+
+                          </div>
+                          <div class="columns">
+                            <div class="column is-4"><div class="box">
       <figure class="image is-3by2">
         <a href="/projects/litfiba-official-website/">
         
@@ -368,10 +404,7 @@ I worked there for a total of five years, which mostly overlapped my college stu
       </div>
     </div>
   </div>
-
-                          </div>
-                          <div class="columns">
-                            <div class="column is-4"><div class="box">
+<div class="column is-4"><div class="box">
       <figure class="image is-3by2">
         <a href="/projects/litfinternet/">
         

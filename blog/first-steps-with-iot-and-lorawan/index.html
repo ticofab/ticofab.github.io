@@ -155,7 +155,7 @@ At the end, a <a href="https://github.com/GabrielNotman/AutonomoTesting/blob/mas
 <pre><code>** Boot-up completed successfully!
 The USB is going to be disabled now.
 </code></pre><p>It seems that this is quite normal (?), and if you upload your sketch before this message appears then it won&rsquo;t disconnect again. I fiddled around a bit with the blink example - mostly to get my fingers to type C-style code again - and this is the results. Everything works as expected.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define TEST_LED LED_BLUE
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define TEST_LED LED_BLUE
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
   <span style="color:#75715e">// Wait for SerialUSB or 10 seconds

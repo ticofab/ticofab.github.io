@@ -172,7 +172,7 @@ val routes <span style="color:#f92672">=</span> path<span style="color:#f92672">
   <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>The supervisor forwards the request to one of the registered handling nodes - here chosen randomly:</p>
-<pre><code>case pch@ProvideConnectionHandler =&gt;
+<pre tabindex="0"><code>case pch@ProvideConnectionHandler =&gt;
   // forward it to a random node, if any
   val chosenNode = nodes(Random.nextInt(nodes.size))
   (chosenNode ? pch) (3.seconds) .... // more details below
@@ -182,7 +182,7 @@ val routes <span style="color:#f92672">=</span> path<span style="color:#f92672">
 <li>Creates a source of Strings and materialises it as a remote source.</li>
 <li>Pushes a greeting down that source every time it receives a message.</li>
 </ul>
-<pre><code>class Handler extends Actor with LogSupport {
+<pre tabindex="0"><code>class Handler extends Actor with LogSupport {
 
   implicit val as = context.system
   implicit val am = ActorMaterializer()
@@ -217,7 +217,7 @@ val routes <span style="color:#f92672">=</span> path<span style="color:#f92672">
 
 }
 </code></pre><p>Once the SourceRef has come back, the supervisor can create the needed flow:</p>
-<pre><code>case pch@ProvideConnectionHandler =&gt;
+<pre tabindex="0"><code>case pch@ProvideConnectionHandler =&gt;
   // forward it to a random node, if any
   val chosenNode = nodes(Random.nextInt(nodes.size))
   (chosenNode ? pch) (3.seconds)
